@@ -1,0 +1,1597 @@
+2025-02-05 09:39:22,244 Config: Older configuration version detected (0 instead of 27)
+2025-02-05 09:39:22,244 Config: Upgrading configuration in progress.
+2025-02-05 09:39:22,245 Config: Upgrading from 0 to 1
+2025-02-05 09:39:22,247 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 09:39:22,247 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_0.txt
+2025-02-05 09:39:22,248 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 09:39:22,249 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 09:39:22,249 Kivy: v2.3.1
+2025-02-05 09:39:22,250 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 09:39:22,250 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 09:39:22,251 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 09:39:22,251 Logger: Purge log fired. Processing...
+2025-02-05 09:39:22,252 Logger: Purge finished!
+2025-02-05 09:39:24,139 Factory: 195 symbols loaded
+2025-02-05 09:39:28,510 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 09:39:31,947 Window: Provider: sdl2
+2025-02-05 09:39:32,940 GL: Using the "OpenGL" graphics system
+2025-02-05 09:39:32,942 GL: GLEW initialization succeeded
+2025-02-05 09:39:32,943 GL: Backend used <glew>
+2025-02-05 09:39:32,943 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 09:39:32,943 GL: OpenGL vendor <b'Intel'>
+2025-02-05 09:39:32,944 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 09:39:32,944 GL: OpenGL parsed version: 4, 5
+2025-02-05 09:39:32,944 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 09:39:32,945 GL: Texture max size <16384>
+2025-02-05 09:39:32,945 GL: Texture max units <32>
+2025-02-05 09:39:33,021 Window: auto add sdl2 input provider
+2025-02-05 09:39:33,023 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 09:39:33,060 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002AE1961F310>" was accessed, it will be removed in a future version
+2025-02-05 09:39:33,811 Text: Provider: sdl2
+2025-02-05 09:39:33,835 GL: NPOT texture support is available
+2025-02-05 09:39:33,840 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002AE1961F310>" was accessed, it will be removed in a future version
+2025-02-05 09:39:33,842 Base: Start application main loop
+2025-02-05 09:39:39,037 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000002AE10D15160>" was accessed, it will be removed in a future version
+2025-02-05 09:40:22,458 Base: Leaving application in progress...
+2025-02-05 09:54:25,930 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 09:54:25,930 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_1.txt
+2025-02-05 09:54:25,931 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 09:54:25,931 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 09:54:25,932 Kivy: v2.3.1
+2025-02-05 09:54:25,933 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 09:54:25,933 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 09:54:25,933 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 09:54:25,934 Logger: Purge log fired. Processing...
+2025-02-05 09:54:25,934 Logger: Purge finished!
+2025-02-05 09:54:25,974 Factory: 195 symbols loaded
+2025-02-05 09:54:26,141 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 09:54:26,178 Window: Provider: sdl2
+2025-02-05 09:54:26,281 GL: Using the "OpenGL" graphics system
+2025-02-05 09:54:26,282 GL: GLEW initialization succeeded
+2025-02-05 09:54:26,284 GL: Backend used <glew>
+2025-02-05 09:54:26,284 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 09:54:26,284 GL: OpenGL vendor <b'Intel'>
+2025-02-05 09:54:26,285 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 09:54:26,285 GL: OpenGL parsed version: 4, 5
+2025-02-05 09:54:26,285 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 09:54:26,286 GL: Texture max size <16384>
+2025-02-05 09:54:26,286 GL: Texture max units <32>
+2025-02-05 09:54:26,311 Window: auto add sdl2 input provider
+2025-02-05 09:54:26,313 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 09:54:26,351 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002AD95BCF310>" was accessed, it will be removed in a future version
+2025-02-05 09:54:26,358 Text: Provider: sdl2
+2025-02-05 09:54:26,377 GL: NPOT texture support is available
+2025-02-05 09:54:26,383 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002AD95BCF310>" was accessed, it will be removed in a future version
+2025-02-05 09:54:26,385 Base: Start application main loop
+2025-02-05 09:54:46,830 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000002AD947A94E0>" was accessed, it will be removed in a future version
+2025-02-05 09:55:14,368 Base: Leaving application in progress...
+2025-02-05 09:55:22,928 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 09:55:22,929 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_2.txt
+2025-02-05 09:55:22,930 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 09:55:22,931 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 09:55:22,931 Kivy: v2.3.1
+2025-02-05 09:55:22,932 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 09:55:22,932 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 09:55:22,932 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 09:55:22,933 Logger: Purge log fired. Processing...
+2025-02-05 09:55:22,934 Logger: Purge finished!
+2025-02-05 09:55:22,978 Factory: 195 symbols loaded
+2025-02-05 09:55:23,120 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 09:55:23,155 Window: Provider: sdl2
+2025-02-05 09:55:23,259 GL: Using the "OpenGL" graphics system
+2025-02-05 09:55:23,260 GL: GLEW initialization succeeded
+2025-02-05 09:55:23,261 GL: Backend used <glew>
+2025-02-05 09:55:23,261 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 09:55:23,261 GL: OpenGL vendor <b'Intel'>
+2025-02-05 09:55:23,262 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 09:55:23,262 GL: OpenGL parsed version: 4, 5
+2025-02-05 09:55:23,262 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 09:55:23,263 GL: Texture max size <16384>
+2025-02-05 09:55:23,263 GL: Texture max units <32>
+2025-02-05 09:55:23,288 Window: auto add sdl2 input provider
+2025-02-05 09:55:23,289 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 09:55:23,331 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001DD47A5F2A0>" was accessed, it will be removed in a future version
+2025-02-05 09:55:23,339 Text: Provider: sdl2
+2025-02-05 09:55:23,357 GL: NPOT texture support is available
+2025-02-05 09:55:23,362 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001DD47A5F2A0>" was accessed, it will be removed in a future version
+2025-02-05 09:55:23,364 Base: Start application main loop
+2025-02-05 09:55:44,013 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000001DD46671860>" was accessed, it will be removed in a future version
+2025-02-05 09:56:05,732 Base: Leaving application in progress...
+2025-02-05 09:56:10,334 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 09:56:10,334 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_3.txt
+2025-02-05 09:56:10,335 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 09:56:10,336 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 09:56:10,336 Kivy: v2.3.1
+2025-02-05 09:56:10,337 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 09:56:10,337 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 09:56:10,337 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 09:56:10,339 Logger: Purge log fired. Processing...
+2025-02-05 09:56:10,340 Logger: Purge finished!
+2025-02-05 09:56:10,382 Factory: 195 symbols loaded
+2025-02-05 09:56:10,527 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 09:56:10,563 Window: Provider: sdl2
+2025-02-05 09:56:10,660 GL: Using the "OpenGL" graphics system
+2025-02-05 09:56:10,661 GL: GLEW initialization succeeded
+2025-02-05 09:56:10,662 GL: Backend used <glew>
+2025-02-05 09:56:10,662 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 09:56:10,662 GL: OpenGL vendor <b'Intel'>
+2025-02-05 09:56:10,663 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 09:56:10,663 GL: OpenGL parsed version: 4, 5
+2025-02-05 09:56:10,664 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 09:56:10,665 GL: Texture max size <16384>
+2025-02-05 09:56:10,665 GL: Texture max units <32>
+2025-02-05 09:56:10,692 Window: auto add sdl2 input provider
+2025-02-05 09:56:10,693 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 09:56:10,734 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000025B8EE3F2A0>" was accessed, it will be removed in a future version
+2025-02-05 09:56:10,742 Text: Provider: sdl2
+2025-02-05 09:56:10,758 GL: NPOT texture support is available
+2025-02-05 09:56:10,760 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000025B8EE3F2A0>" was accessed, it will be removed in a future version
+2025-02-05 09:56:10,762 Base: Start application main loop
+2025-02-05 09:56:23,138 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000025B8D9F4A60>" was accessed, it will be removed in a future version
+2025-02-05 09:56:39,212 Base: Leaving application in progress...
+2025-02-05 10:01:28,744 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 10:01:28,745 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_4.txt
+2025-02-05 10:01:28,746 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 10:01:28,747 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 10:01:28,747 Kivy: v2.3.1
+2025-02-05 10:01:28,749 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 10:01:28,749 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 10:01:28,750 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 10:01:28,750 Logger: Purge log fired. Processing...
+2025-02-05 10:01:28,751 Logger: Purge finished!
+2025-02-05 10:01:28,790 Factory: 195 symbols loaded
+2025-02-05 10:01:28,932 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 10:01:28,969 Window: Provider: sdl2
+2025-02-05 10:01:29,072 GL: Using the "OpenGL" graphics system
+2025-02-05 10:01:29,073 GL: GLEW initialization succeeded
+2025-02-05 10:01:29,074 GL: Backend used <glew>
+2025-02-05 10:01:29,074 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 10:01:29,074 GL: OpenGL vendor <b'Intel'>
+2025-02-05 10:01:29,075 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 10:01:29,075 GL: OpenGL parsed version: 4, 5
+2025-02-05 10:01:29,075 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 10:01:29,076 GL: Texture max size <16384>
+2025-02-05 10:01:29,077 GL: Texture max units <32>
+2025-02-05 10:01:29,102 Window: auto add sdl2 input provider
+2025-02-05 10:01:29,104 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 10:38:19,667 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 10:38:19,668 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_5.txt
+2025-02-05 10:38:19,668 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 10:38:19,668 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 10:38:19,669 Kivy: v2.3.1
+2025-02-05 10:38:19,669 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 10:38:19,670 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 10:38:19,670 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 10:38:19,672 Logger: Purge log fired. Processing...
+2025-02-05 10:38:19,673 Logger: Purge finished!
+2025-02-05 10:38:19,715 Factory: 195 symbols loaded
+2025-02-05 10:38:19,883 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 10:38:19,925 Window: Provider: sdl2
+2025-02-05 10:38:20,043 GL: Using the "OpenGL" graphics system
+2025-02-05 10:38:20,045 GL: GLEW initialization succeeded
+2025-02-05 10:38:20,046 GL: Backend used <glew>
+2025-02-05 10:38:20,046 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 10:38:20,046 GL: OpenGL vendor <b'Intel'>
+2025-02-05 10:38:20,047 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 10:38:20,047 GL: OpenGL parsed version: 4, 5
+2025-02-05 10:38:20,047 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 10:38:20,048 GL: Texture max size <16384>
+2025-02-05 10:38:20,049 GL: Texture max units <32>
+2025-02-05 10:38:20,072 Window: auto add sdl2 input provider
+2025-02-05 10:38:20,074 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 10:38:20,110 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000010B6047F310>" was accessed, it will be removed in a future version
+2025-02-05 10:38:20,117 Text: Provider: sdl2
+2025-02-05 10:38:20,136 GL: NPOT texture support is available
+2025-02-05 10:38:20,141 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000010B6047F310>" was accessed, it will be removed in a future version
+2025-02-05 10:38:20,143 Base: Start application main loop
+2025-02-05 10:38:57,954 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000010B5E0F8EC0>" was accessed, it will be removed in a future version
+2025-02-05 10:39:48,701 Base: Leaving application in progress...
+2025-02-05 10:46:02,403 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 10:46:02,403 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_6.txt
+2025-02-05 10:46:02,404 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 10:46:02,404 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 10:46:02,405 Kivy: v2.3.1
+2025-02-05 10:46:02,405 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 10:46:02,406 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 10:46:02,406 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 10:46:02,407 Logger: Purge log fired. Processing...
+2025-02-05 10:46:02,409 Logger: Purge finished!
+2025-02-05 10:46:02,459 Factory: 195 symbols loaded
+2025-02-05 10:46:02,647 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 10:46:02,695 Window: Provider: sdl2
+2025-02-05 10:46:02,792 GL: Using the "OpenGL" graphics system
+2025-02-05 10:46:02,793 GL: GLEW initialization succeeded
+2025-02-05 10:46:02,794 GL: Backend used <glew>
+2025-02-05 10:46:02,794 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 10:46:02,794 GL: OpenGL vendor <b'Intel'>
+2025-02-05 10:46:02,795 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 10:46:02,795 GL: OpenGL parsed version: 4, 5
+2025-02-05 10:46:02,795 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 10:46:02,796 GL: Texture max size <16384>
+2025-02-05 10:46:02,796 GL: Texture max units <32>
+2025-02-05 10:46:02,824 Window: auto add sdl2 input provider
+2025-02-05 10:46:02,826 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 10:46:02,868 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001B35B5DF2A0>" was accessed, it will be removed in a future version
+2025-02-05 10:46:02,877 Text: Provider: sdl2
+2025-02-05 10:46:02,904 GL: NPOT texture support is available
+2025-02-05 10:46:02,910 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001B35B5DF2A0>" was accessed, it will be removed in a future version
+2025-02-05 10:46:02,914 Base: Start application main loop
+2025-02-05 10:47:05,771 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000001B3591E00C0>" was accessed, it will be removed in a future version
+2025-02-05 10:47:36,024 Base: Leaving application in progress...
+2025-02-05 10:53:28,013 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 10:53:28,013 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_7.txt
+2025-02-05 10:53:28,015 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 10:53:28,016 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 10:53:28,016 Kivy: v2.3.1
+2025-02-05 10:53:28,017 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 10:53:28,017 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 10:53:28,017 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 10:53:28,018 Logger: Purge log fired. Processing...
+2025-02-05 10:53:28,019 Logger: Purge finished!
+2025-02-05 10:53:28,063 Factory: 195 symbols loaded
+2025-02-05 10:53:28,203 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 10:53:28,242 Window: Provider: sdl2
+2025-02-05 10:53:28,345 GL: Using the "OpenGL" graphics system
+2025-02-05 10:53:28,347 GL: GLEW initialization succeeded
+2025-02-05 10:53:28,348 GL: Backend used <glew>
+2025-02-05 10:53:28,348 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 10:53:28,349 GL: OpenGL vendor <b'Intel'>
+2025-02-05 10:53:28,349 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 10:53:28,349 GL: OpenGL parsed version: 4, 5
+2025-02-05 10:53:28,350 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 10:53:28,350 GL: Texture max size <16384>
+2025-02-05 10:53:28,350 GL: Texture max units <32>
+2025-02-05 10:53:28,375 Window: auto add sdl2 input provider
+2025-02-05 10:53:28,378 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 10:53:28,416 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002907629B380>" was accessed, it will be removed in a future version
+2025-02-05 10:53:28,422 Text: Provider: sdl2
+2025-02-05 10:53:28,444 GL: NPOT texture support is available
+2025-02-05 10:53:28,448 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002907629B380>" was accessed, it will be removed in a future version
+2025-02-05 10:53:28,450 Base: Start application main loop
+2025-02-05 10:53:41,445 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000029073EE8EC0>" was accessed, it will be removed in a future version
+2025-02-05 10:54:12,588 Base: Leaving application in progress...
+2025-02-05 10:59:20,732 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 10:59:20,733 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_8.txt
+2025-02-05 10:59:20,733 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 10:59:20,734 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 10:59:20,734 Kivy: v2.3.1
+2025-02-05 10:59:20,735 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 10:59:20,735 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 10:59:20,736 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 10:59:20,737 Logger: Purge log fired. Processing...
+2025-02-05 10:59:20,738 Logger: Purge finished!
+2025-02-05 10:59:20,782 Factory: 195 symbols loaded
+2025-02-05 10:59:20,928 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 10:59:20,963 Window: Provider: sdl2
+2025-02-05 10:59:21,147 GL: Using the "OpenGL" graphics system
+2025-02-05 10:59:21,148 GL: GLEW initialization succeeded
+2025-02-05 10:59:21,149 GL: Backend used <glew>
+2025-02-05 10:59:21,149 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 10:59:21,149 GL: OpenGL vendor <b'Intel'>
+2025-02-05 10:59:21,150 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 10:59:21,150 GL: OpenGL parsed version: 4, 5
+2025-02-05 10:59:21,151 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 10:59:21,151 GL: Texture max size <16384>
+2025-02-05 10:59:21,152 GL: Texture max units <32>
+2025-02-05 10:59:21,180 Window: auto add sdl2 input provider
+2025-02-05 10:59:21,183 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 10:59:21,222 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x00000182FA887460>" was accessed, it will be removed in a future version
+2025-02-05 10:59:21,229 Text: Provider: sdl2
+2025-02-05 10:59:21,247 GL: NPOT texture support is available
+2025-02-05 10:59:21,254 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x00000182FA887460>" was accessed, it will be removed in a future version
+2025-02-05 10:59:21,257 Base: Start application main loop
+2025-02-05 10:59:52,681 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x00000182F94B9010>" was accessed, it will be removed in a future version
+2025-02-05 11:01:13,182 Base: Leaving application in progress...
+2025-02-05 11:05:42,803 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 11:05:42,804 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_9.txt
+2025-02-05 11:05:42,805 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 11:05:42,805 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 11:05:42,805 Kivy: v2.3.1
+2025-02-05 11:05:42,806 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 11:05:42,806 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 11:05:42,807 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 11:05:42,807 Logger: Purge log fired. Processing...
+2025-02-05 11:05:42,808 Logger: Purge finished!
+2025-02-05 11:05:42,852 Factory: 195 symbols loaded
+2025-02-05 11:05:43,009 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 11:05:43,046 Window: Provider: sdl2
+2025-02-05 11:05:43,149 GL: Using the "OpenGL" graphics system
+2025-02-05 11:05:43,150 GL: GLEW initialization succeeded
+2025-02-05 11:05:43,151 GL: Backend used <glew>
+2025-02-05 11:05:43,151 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 11:05:43,151 GL: OpenGL vendor <b'Intel'>
+2025-02-05 11:05:43,151 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 11:05:43,152 GL: OpenGL parsed version: 4, 5
+2025-02-05 11:05:43,152 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 11:05:43,152 GL: Texture max size <16384>
+2025-02-05 11:05:43,152 GL: Texture max units <32>
+2025-02-05 11:05:43,178 Window: auto add sdl2 input provider
+2025-02-05 11:05:43,180 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 11:05:43,218 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002092081B460>" was accessed, it will be removed in a future version
+2025-02-05 11:05:43,225 Text: Provider: sdl2
+2025-02-05 11:05:43,242 GL: NPOT texture support is available
+2025-02-05 11:05:43,248 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002092081B460>" was accessed, it will be removed in a future version
+2025-02-05 11:05:43,250 Base: Start application main loop
+2025-02-05 11:05:55,768 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000002091E498C20>" was accessed, it will be removed in a future version
+2025-02-05 11:06:28,273 Base: Leaving application in progress...
+2025-02-05 11:13:11,248 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 11:13:11,249 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_10.txt
+2025-02-05 11:13:11,249 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 11:13:11,250 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 11:13:11,250 Kivy: v2.3.1
+2025-02-05 11:13:11,252 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 11:13:11,252 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 11:13:11,252 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 11:13:11,253 Logger: Purge log fired. Processing...
+2025-02-05 11:13:11,254 Logger: Purge finished!
+2025-02-05 11:13:11,295 Factory: 195 symbols loaded
+2025-02-05 11:13:11,452 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 11:13:11,488 Window: Provider: sdl2
+2025-02-05 11:13:11,660 GL: Using the "OpenGL" graphics system
+2025-02-05 11:13:11,661 GL: GLEW initialization succeeded
+2025-02-05 11:13:11,662 GL: Backend used <glew>
+2025-02-05 11:13:11,662 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 11:13:11,663 GL: OpenGL vendor <b'Intel'>
+2025-02-05 11:13:11,664 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 11:13:11,664 GL: OpenGL parsed version: 4, 5
+2025-02-05 11:13:11,665 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 11:13:11,665 GL: Texture max size <16384>
+2025-02-05 11:13:11,665 GL: Texture max units <32>
+2025-02-05 11:13:11,691 Window: auto add sdl2 input provider
+2025-02-05 11:13:11,693 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 11:13:11,731 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000027DE84FB460>" was accessed, it will be removed in a future version
+2025-02-05 11:13:11,740 Text: Provider: sdl2
+2025-02-05 11:13:11,764 GL: NPOT texture support is available
+2025-02-05 11:13:11,771 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000027DE84FB460>" was accessed, it will be removed in a future version
+2025-02-05 11:13:11,772 Base: Start application main loop
+2025-02-05 11:13:24,200 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000027DE71F8C20>" was accessed, it will be removed in a future version
+2025-02-05 11:13:51,788 Base: Leaving application in progress...
+2025-02-05 11:25:17,393 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 11:25:17,393 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_11.txt
+2025-02-05 11:25:17,394 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 11:25:17,395 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 11:25:17,395 Kivy: v2.3.1
+2025-02-05 11:25:17,396 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 11:25:17,396 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 11:25:17,396 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 11:25:17,398 Logger: Purge log fired. Processing...
+2025-02-05 11:25:17,400 Logger: Purge finished!
+2025-02-05 11:25:17,445 Factory: 195 symbols loaded
+2025-02-05 11:25:17,604 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 11:25:17,640 Window: Provider: sdl2
+2025-02-05 11:25:17,810 GL: Using the "OpenGL" graphics system
+2025-02-05 11:25:17,812 GL: GLEW initialization succeeded
+2025-02-05 11:25:17,812 GL: Backend used <glew>
+2025-02-05 11:25:17,812 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 11:25:17,813 GL: OpenGL vendor <b'Intel'>
+2025-02-05 11:25:17,813 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 11:25:17,814 GL: OpenGL parsed version: 4, 5
+2025-02-05 11:25:17,814 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 11:25:17,814 GL: Texture max size <16384>
+2025-02-05 11:25:17,815 GL: Texture max units <32>
+2025-02-05 11:25:17,844 Window: auto add sdl2 input provider
+2025-02-05 11:25:17,846 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 11:25:17,883 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x00000171B50A7460>" was accessed, it will be removed in a future version
+2025-02-05 11:25:17,891 Text: Provider: sdl2
+2025-02-05 11:25:17,910 GL: NPOT texture support is available
+2025-02-05 11:25:17,915 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x00000171B50A7460>" was accessed, it will be removed in a future version
+2025-02-05 11:25:17,916 Base: Start application main loop
+2025-02-05 11:25:30,147 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x00000171B2CF8C20>" was accessed, it will be removed in a future version
+2025-02-05 11:26:10,048 Base: Leaving application in progress...
+2025-02-05 11:31:34,928 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 11:31:34,929 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_12.txt
+2025-02-05 11:31:34,930 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 11:31:34,930 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 11:31:34,931 Kivy: v2.3.1
+2025-02-05 11:31:34,931 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 11:31:34,932 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 11:31:34,932 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 11:31:34,940 Logger: Purge log fired. Processing...
+2025-02-05 11:31:34,942 Logger: Purge finished!
+2025-02-05 11:31:34,984 Factory: 195 symbols loaded
+2025-02-05 11:31:35,132 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 11:31:35,167 Window: Provider: sdl2
+2025-02-05 11:31:35,268 GL: Using the "OpenGL" graphics system
+2025-02-05 11:31:35,270 GL: GLEW initialization succeeded
+2025-02-05 11:31:35,271 GL: Backend used <glew>
+2025-02-05 11:31:35,272 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 11:31:35,272 GL: OpenGL vendor <b'Intel'>
+2025-02-05 11:31:35,272 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 11:31:35,273 GL: OpenGL parsed version: 4, 5
+2025-02-05 11:31:35,273 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 11:31:35,273 GL: Texture max size <16384>
+2025-02-05 11:31:35,274 GL: Texture max units <32>
+2025-02-05 11:31:35,300 Window: auto add sdl2 input provider
+2025-02-05 11:31:35,302 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 11:31:35,340 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001CCD281B4D0>" was accessed, it will be removed in a future version
+2025-02-05 11:31:35,348 Text: Provider: sdl2
+2025-02-05 11:31:35,370 GL: NPOT texture support is available
+2025-02-05 11:31:35,375 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001CCD281B4D0>" was accessed, it will be removed in a future version
+2025-02-05 11:31:35,376 Base: Start application main loop
+2025-02-05 11:31:46,007 Base: Leaving application in progress...
+2025-02-05 11:32:52,672 stderr: Traceback (most recent call last):
+2025-02-05 11:32:52,675 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\runpy.py", line 198, in _run_module_as_main
+2025-02-05 11:32:52,676 stderr:     return _run_code(code, main_globals, None,
+2025-02-05 11:32:52,677 stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-02-05 11:32:52,677 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\runpy.py", line 88, in _run_code
+2025-02-05 11:32:52,678 stderr:     exec(code, run_globals)
+2025-02-05 11:32:52,678 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 71, in <module>
+2025-02-05 11:32:52,679 stderr:     cli.main()
+2025-02-05 11:32:52,679 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 501, in main
+2025-02-05 11:32:52,680 stderr:     run()
+2025-02-05 11:32:52,680 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 351, in run_file
+2025-02-05 11:32:52,681 stderr:     runpy.run_path(target, run_name="__main__")
+2025-02-05 11:32:52,681 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 310, in run_path
+2025-02-05 11:32:52,682 stderr:     return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+2025-02-05 11:32:52,682 stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-02-05 11:32:52,683 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 127, in _run_module_code
+2025-02-05 11:32:52,683 stderr:     _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+2025-02-05 11:32:52,684 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 118, in _run_code
+2025-02-05 11:32:52,684 stderr:     exec(code, run_globals)
+2025-02-05 11:32:52,685 stderr:   File "C:\Users\aland\Desktop\art_expres\lito_app.py", line 1510, in <module>
+2025-02-05 11:32:52,686 stderr:     Application().run()
+2025-02-05 11:32:52,686 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2025-02-05 11:32:52,687 stderr:     runTouchApp()
+2025-02-05 11:32:52,687 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-02-05 11:32:52,688 stderr:     EventLoop.mainloop()
+2025-02-05 11:32:52,688 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-02-05 11:32:52,689 stderr:     self.idle()
+2025-02-05 11:32:52,689 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-02-05 11:32:52,690 stderr:     Clock.tick()
+2025-02-05 11:32:52,690 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-02-05 11:32:52,692 stderr:     self.post_idle(ts, self.idle())
+2025-02-05 11:32:52,692 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+2025-02-05 11:32:52,694 stderr:     self._process_events()
+2025-02-05 11:32:52,694 stderr:   File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+2025-02-05 11:32:52,696 stderr:   File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+2025-02-05 11:32:52,696 stderr:   File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+2025-02-05 11:32:52,697 stderr:   File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+2025-02-05 11:32:52,699 stderr:   File "C:\Users\aland\Desktop\art_expres\lito_app.py", line 483, in animation_loop
+2025-02-05 11:32:52,700 stderr:     exec(f"Clock.schedule_once(self.out_{i}, logo_schedule[{i-1}])")
+2025-02-05 11:32:52,700 stderr:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-02-05 11:32:52,700 stderr:   File "<string>", line 1, in <module>
+2025-02-05 11:32:52,701 stderr: IndexError: list index out of range
+2025-02-05 11:33:05,035 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 11:33:05,036 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_13.txt
+2025-02-05 11:33:05,037 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 11:33:05,038 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 11:33:05,038 Kivy: v2.3.1
+2025-02-05 11:33:05,038 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 11:33:05,039 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 11:33:05,039 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 11:33:05,040 Logger: Purge log fired. Processing...
+2025-02-05 11:33:05,042 Logger: Purge finished!
+2025-02-05 11:33:05,084 Factory: 195 symbols loaded
+2025-02-05 11:33:05,249 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 11:33:05,285 Window: Provider: sdl2
+2025-02-05 11:33:05,396 GL: Using the "OpenGL" graphics system
+2025-02-05 11:33:05,398 GL: GLEW initialization succeeded
+2025-02-05 11:33:05,399 GL: Backend used <glew>
+2025-02-05 11:33:05,399 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 11:33:05,399 GL: OpenGL vendor <b'Intel'>
+2025-02-05 11:33:05,400 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 11:33:05,400 GL: OpenGL parsed version: 4, 5
+2025-02-05 11:33:05,400 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 11:33:05,400 GL: Texture max size <16384>
+2025-02-05 11:33:05,401 GL: Texture max units <32>
+2025-02-05 11:33:05,423 Window: auto add sdl2 input provider
+2025-02-05 11:33:05,425 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 11:33:05,461 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x00000201F360B4D0>" was accessed, it will be removed in a future version
+2025-02-05 11:33:05,468 Text: Provider: sdl2
+2025-02-05 11:33:05,487 GL: NPOT texture support is available
+2025-02-05 11:33:05,493 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x00000201F360B4D0>" was accessed, it will be removed in a future version
+2025-02-05 11:33:05,495 Base: Start application main loop
+2025-02-05 11:33:24,088 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x00000201F1295630>" was accessed, it will be removed in a future version
+2025-02-05 11:33:43,910 Base: Leaving application in progress...
+2025-02-05 11:37:36,849 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 11:37:36,850 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_14.txt
+2025-02-05 11:37:36,851 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 11:37:36,851 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 11:37:36,852 Kivy: v2.3.1
+2025-02-05 11:37:36,852 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 11:37:36,852 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 11:37:36,853 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 11:37:36,854 Logger: Purge log fired. Processing...
+2025-02-05 11:37:36,856 Logger: Purge finished!
+2025-02-05 11:37:36,902 Factory: 195 symbols loaded
+2025-02-05 11:37:37,063 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 11:37:37,098 Window: Provider: sdl2
+2025-02-05 11:37:37,202 GL: Using the "OpenGL" graphics system
+2025-02-05 11:37:37,204 GL: GLEW initialization succeeded
+2025-02-05 11:37:37,204 GL: Backend used <glew>
+2025-02-05 11:37:37,205 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 11:37:37,205 GL: OpenGL vendor <b'Intel'>
+2025-02-05 11:37:37,205 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 11:37:37,206 GL: OpenGL parsed version: 4, 5
+2025-02-05 11:37:37,207 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 11:37:37,207 GL: Texture max size <16384>
+2025-02-05 11:37:37,208 GL: Texture max units <32>
+2025-02-05 11:37:37,232 Window: auto add sdl2 input provider
+2025-02-05 11:37:37,234 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 11:40:03,961 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 11:40:03,962 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_15.txt
+2025-02-05 11:40:03,963 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 11:40:03,963 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 11:40:03,964 Kivy: v2.3.1
+2025-02-05 11:40:03,964 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 11:40:03,964 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 11:40:03,966 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 11:40:03,966 Logger: Purge log fired. Processing...
+2025-02-05 11:40:03,968 Logger: Purge finished!
+2025-02-05 11:40:04,012 Factory: 195 symbols loaded
+2025-02-05 11:40:04,153 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 11:40:04,189 Window: Provider: sdl2
+2025-02-05 11:40:04,301 GL: Using the "OpenGL" graphics system
+2025-02-05 11:40:04,302 GL: GLEW initialization succeeded
+2025-02-05 11:40:04,302 GL: Backend used <glew>
+2025-02-05 11:40:04,303 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 11:40:04,303 GL: OpenGL vendor <b'Intel'>
+2025-02-05 11:40:04,304 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 11:40:04,304 GL: OpenGL parsed version: 4, 5
+2025-02-05 11:40:04,305 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 11:40:04,305 GL: Texture max size <16384>
+2025-02-05 11:40:04,305 GL: Texture max units <32>
+2025-02-05 11:40:04,329 Window: auto add sdl2 input provider
+2025-02-05 11:40:04,330 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 11:40:04,374 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000027EC43B74D0>" was accessed, it will be removed in a future version
+2025-02-05 11:40:04,381 Text: Provider: sdl2
+2025-02-05 11:40:04,400 GL: NPOT texture support is available
+2025-02-05 11:40:04,406 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000027EC43B74D0>" was accessed, it will be removed in a future version
+2025-02-05 11:40:04,408 Base: Start application main loop
+2025-02-05 11:40:16,328 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000027EC2038980>" was accessed, it will be removed in a future version
+2025-02-05 11:40:34,185 Base: Leaving application in progress...
+2025-02-05 12:58:52,346 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 12:58:52,347 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_16.txt
+2025-02-05 12:58:52,348 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 12:58:52,349 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 12:58:52,350 Kivy: v2.3.1
+2025-02-05 12:58:52,350 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 12:58:52,350 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 12:58:52,351 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 12:58:52,365 Logger: Purge log fired. Processing...
+2025-02-05 12:58:52,367 Logger: Purge finished!
+2025-02-05 12:58:52,412 Factory: 195 symbols loaded
+2025-02-05 12:58:52,576 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 12:58:52,615 Window: Provider: sdl2
+2025-02-05 12:58:52,723 GL: Using the "OpenGL" graphics system
+2025-02-05 12:58:52,725 GL: GLEW initialization succeeded
+2025-02-05 12:58:52,727 GL: Backend used <glew>
+2025-02-05 12:58:52,727 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 12:58:52,727 GL: OpenGL vendor <b'Intel'>
+2025-02-05 12:58:52,728 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 12:58:52,728 GL: OpenGL parsed version: 4, 5
+2025-02-05 12:58:52,728 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 12:58:52,729 GL: Texture max size <16384>
+2025-02-05 12:58:52,730 GL: Texture max units <32>
+2025-02-05 12:58:52,753 Window: auto add sdl2 input provider
+2025-02-05 12:58:52,756 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:06:11,482 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:06:11,546 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_17.txt
+2025-02-05 13:06:11,547 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:06:11,548 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:06:11,548 Kivy: v2.3.1
+2025-02-05 13:06:11,548 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:06:11,549 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:06:11,549 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:06:11,590 Logger: Purge log fired. Processing...
+2025-02-05 13:06:11,593 Logger: Purge finished!
+2025-02-05 13:06:11,633 Factory: 195 symbols loaded
+2025-02-05 13:06:11,785 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:06:11,820 Window: Provider: sdl2
+2025-02-05 13:06:11,951 GL: Using the "OpenGL" graphics system
+2025-02-05 13:06:11,952 GL: GLEW initialization succeeded
+2025-02-05 13:06:11,953 GL: Backend used <glew>
+2025-02-05 13:06:11,953 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:06:11,954 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:06:11,954 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:06:11,954 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:06:11,955 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:06:11,955 GL: Texture max size <16384>
+2025-02-05 13:06:11,956 GL: Texture max units <32>
+2025-02-05 13:06:11,978 Window: auto add sdl2 input provider
+2025-02-05 13:06:11,980 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:06:12,019 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002411B6C7690>" was accessed, it will be removed in a future version
+2025-02-05 13:06:12,027 Text: Provider: sdl2
+2025-02-05 13:06:12,047 GL: NPOT texture support is available
+2025-02-05 13:06:12,052 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002411B6C7690>" was accessed, it will be removed in a future version
+2025-02-05 13:06:12,055 Base: Start application main loop
+2025-02-05 13:06:22,649 Base: Leaving application in progress...
+2025-02-05 13:26:19,021 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:26:19,022 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_18.txt
+2025-02-05 13:26:19,023 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:26:19,023 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:26:19,024 Kivy: v2.3.1
+2025-02-05 13:26:19,024 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:26:19,024 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:26:19,025 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:26:19,025 Logger: Purge log fired. Processing...
+2025-02-05 13:26:19,028 Logger: Purge finished!
+2025-02-05 13:26:19,073 Factory: 195 symbols loaded
+2025-02-05 13:26:19,217 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:26:19,255 Window: Provider: sdl2
+2025-02-05 13:26:19,362 GL: Using the "OpenGL" graphics system
+2025-02-05 13:26:19,363 GL: GLEW initialization succeeded
+2025-02-05 13:26:19,364 GL: Backend used <glew>
+2025-02-05 13:26:19,364 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:26:19,364 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:26:19,365 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:26:19,365 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:26:19,365 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:26:19,366 GL: Texture max size <16384>
+2025-02-05 13:26:19,366 GL: Texture max units <32>
+2025-02-05 13:26:19,393 Window: auto add sdl2 input provider
+2025-02-05 13:26:19,395 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:26:19,438 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x00000207F721B4D0>" was accessed, it will be removed in a future version
+2025-02-05 13:26:19,447 Text: Provider: sdl2
+2025-02-05 13:26:19,467 GL: NPOT texture support is available
+2025-02-05 13:26:19,472 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x00000207F721B4D0>" was accessed, it will be removed in a future version
+2025-02-05 13:26:19,476 Base: Start application main loop
+2025-02-05 13:26:32,172 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x00000207F4E88C90>" was accessed, it will be removed in a future version
+2025-02-05 13:26:46,191 Base: Leaving application in progress...
+2025-02-05 13:36:11,764 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:36:11,765 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_20.txt
+2025-02-05 13:36:11,766 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:36:11,766 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:36:11,767 Kivy: v2.3.1
+2025-02-05 13:36:11,767 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:36:11,767 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:36:11,768 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:36:11,769 Logger: Purge log fired. Processing...
+2025-02-05 13:36:11,772 Logger: Purge finished!
+2025-02-05 13:36:11,814 Factory: 195 symbols loaded
+2025-02-05 13:36:11,957 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:36:11,997 Window: Provider: sdl2
+2025-02-05 13:36:12,130 GL: Using the "OpenGL" graphics system
+2025-02-05 13:36:12,132 GL: GLEW initialization succeeded
+2025-02-05 13:36:12,132 GL: Backend used <glew>
+2025-02-05 13:36:12,133 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:36:12,133 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:36:12,133 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:36:12,134 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:36:12,134 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:36:12,134 GL: Texture max size <16384>
+2025-02-05 13:36:12,134 GL: Texture max units <32>
+2025-02-05 13:36:12,159 Window: auto add sdl2 input provider
+2025-02-05 13:36:12,162 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:36:12,200 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001EB40A6B5B0>" was accessed, it will be removed in a future version
+2025-02-05 13:36:12,208 Text: Provider: sdl2
+2025-02-05 13:36:12,230 GL: NPOT texture support is available
+2025-02-05 13:36:12,234 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001EB40A6B5B0>" was accessed, it will be removed in a future version
+2025-02-05 13:36:12,236 Base: Start application main loop
+2025-02-05 13:36:24,245 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000001EB3F678A60>" was accessed, it will be removed in a future version
+2025-02-05 13:36:42,095 Base: Leaving application in progress...
+2025-02-05 13:39:29,262 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:39:29,263 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_21.txt
+2025-02-05 13:39:29,264 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:39:29,264 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:39:29,265 Kivy: v2.3.1
+2025-02-05 13:39:29,265 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:39:29,266 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:39:29,267 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:39:29,268 Logger: Purge log fired. Processing...
+2025-02-05 13:39:29,271 Logger: Purge finished!
+2025-02-05 13:39:29,316 Factory: 195 symbols loaded
+2025-02-05 13:39:29,490 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:39:29,525 Window: Provider: sdl2
+2025-02-05 13:39:29,631 GL: Using the "OpenGL" graphics system
+2025-02-05 13:39:29,633 GL: GLEW initialization succeeded
+2025-02-05 13:39:29,634 GL: Backend used <glew>
+2025-02-05 13:39:29,634 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:39:29,635 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:39:29,635 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:39:29,635 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:39:29,636 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:39:29,636 GL: Texture max size <16384>
+2025-02-05 13:39:29,637 GL: Texture max units <32>
+2025-02-05 13:39:29,664 Window: auto add sdl2 input provider
+2025-02-05 13:39:29,665 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:39:29,705 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002351EC82F90>" was accessed, it will be removed in a future version
+2025-02-05 13:39:29,713 Text: Provider: sdl2
+2025-02-05 13:39:29,732 GL: NPOT texture support is available
+2025-02-05 13:39:29,737 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002351EC82F90>" was accessed, it will be removed in a future version
+2025-02-05 13:39:29,738 Base: Start application main loop
+2025-02-05 13:39:41,113 Base: Leaving application in progress...
+2025-02-05 13:42:44,632 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:42:44,633 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_22.txt
+2025-02-05 13:42:44,634 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:42:44,635 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:42:44,635 Kivy: v2.3.1
+2025-02-05 13:42:44,636 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:42:44,636 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:42:44,637 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:42:44,637 Logger: Purge log fired. Processing...
+2025-02-05 13:42:44,640 Logger: Purge finished!
+2025-02-05 13:42:44,682 Factory: 195 symbols loaded
+2025-02-05 13:42:44,842 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:42:44,877 Window: Provider: sdl2
+2025-02-05 13:42:44,988 GL: Using the "OpenGL" graphics system
+2025-02-05 13:42:44,989 GL: GLEW initialization succeeded
+2025-02-05 13:42:44,990 GL: Backend used <glew>
+2025-02-05 13:42:44,990 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:42:44,990 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:42:44,991 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:42:44,991 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:42:44,991 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:42:44,992 GL: Texture max size <16384>
+2025-02-05 13:42:44,992 GL: Texture max units <32>
+2025-02-05 13:42:45,018 Window: auto add sdl2 input provider
+2025-02-05 13:42:45,021 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:42:45,059 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001FAB77BB540>" was accessed, it will be removed in a future version
+2025-02-05 13:42:45,068 Text: Provider: sdl2
+2025-02-05 13:42:45,089 GL: NPOT texture support is available
+2025-02-05 13:42:45,096 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001FAB77BB540>" was accessed, it will be removed in a future version
+2025-02-05 13:42:45,100 Base: Start application main loop
+2025-02-05 13:42:57,200 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000001FAB54889F0>" was accessed, it will be removed in a future version
+2025-02-05 13:43:09,879 Base: Leaving application in progress...
+2025-02-05 13:46:43,759 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:46:43,760 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_23.txt
+2025-02-05 13:46:43,760 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:46:43,760 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:46:43,761 Kivy: v2.3.1
+2025-02-05 13:46:43,761 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:46:43,761 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:46:43,762 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:46:43,763 Logger: Purge log fired. Processing...
+2025-02-05 13:46:43,766 Logger: Purge finished!
+2025-02-05 13:46:43,807 Factory: 195 symbols loaded
+2025-02-05 13:46:43,953 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:46:43,993 Window: Provider: sdl2
+2025-02-05 13:46:44,106 GL: Using the "OpenGL" graphics system
+2025-02-05 13:46:44,107 GL: GLEW initialization succeeded
+2025-02-05 13:46:44,108 GL: Backend used <glew>
+2025-02-05 13:46:44,108 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:46:44,109 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:46:44,109 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:46:44,109 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:46:44,110 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:46:44,110 GL: Texture max size <16384>
+2025-02-05 13:46:44,110 GL: Texture max units <32>
+2025-02-05 13:46:44,133 Window: auto add sdl2 input provider
+2025-02-05 13:46:44,136 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:46:44,181 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001E29223F700>" was accessed, it will be removed in a future version
+2025-02-05 13:46:44,190 Text: Provider: sdl2
+2025-02-05 13:46:44,210 GL: NPOT texture support is available
+2025-02-05 13:46:44,215 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001E29223F700>" was accessed, it will be removed in a future version
+2025-02-05 13:46:44,217 Base: Start application main loop
+2025-02-05 13:46:53,900 Base: Leaving application in progress...
+2025-02-05 13:48:51,619 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:48:51,621 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_24.txt
+2025-02-05 13:48:51,622 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:48:51,622 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:48:51,623 Kivy: v2.3.1
+2025-02-05 13:48:51,623 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:48:51,623 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:48:51,624 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:48:51,624 Logger: Purge log fired. Processing...
+2025-02-05 13:48:51,628 Logger: Purge finished!
+2025-02-05 13:48:51,667 Factory: 195 symbols loaded
+2025-02-05 13:48:51,817 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:48:51,854 Window: Provider: sdl2
+2025-02-05 13:48:51,963 GL: Using the "OpenGL" graphics system
+2025-02-05 13:48:51,965 GL: GLEW initialization succeeded
+2025-02-05 13:48:51,965 GL: Backend used <glew>
+2025-02-05 13:48:51,965 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:48:51,966 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:48:51,966 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:48:51,966 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:48:51,967 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:48:51,967 GL: Texture max size <16384>
+2025-02-05 13:48:51,967 GL: Texture max units <32>
+2025-02-05 13:48:51,994 Window: auto add sdl2 input provider
+2025-02-05 13:48:51,997 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:48:52,034 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x00000188D6DEB690>" was accessed, it will be removed in a future version
+2025-02-05 13:48:52,043 Text: Provider: sdl2
+2025-02-05 13:48:52,062 GL: NPOT texture support is available
+2025-02-05 13:48:52,066 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x00000188D6DEB690>" was accessed, it will be removed in a future version
+2025-02-05 13:48:52,068 Base: Start application main loop
+2025-02-05 13:49:01,744 Base: Leaving application in progress...
+2025-02-05 13:51:20,130 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:51:20,132 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_25.txt
+2025-02-05 13:51:20,133 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:51:20,134 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:51:20,134 Kivy: v2.3.1
+2025-02-05 13:51:20,134 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:51:20,135 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:51:20,135 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:51:20,136 Logger: Purge log fired. Processing...
+2025-02-05 13:51:20,139 Logger: Purge finished!
+2025-02-05 13:51:20,180 Factory: 195 symbols loaded
+2025-02-05 13:51:20,333 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:51:20,370 Window: Provider: sdl2
+2025-02-05 13:51:20,475 GL: Using the "OpenGL" graphics system
+2025-02-05 13:51:20,476 GL: GLEW initialization succeeded
+2025-02-05 13:51:20,476 GL: Backend used <glew>
+2025-02-05 13:51:20,476 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:51:20,477 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:51:20,477 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:51:20,477 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:51:20,477 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:51:20,478 GL: Texture max size <16384>
+2025-02-05 13:51:20,478 GL: Texture max units <32>
+2025-02-05 13:51:20,502 Window: auto add sdl2 input provider
+2025-02-05 13:51:20,504 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:51:37,828 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:51:37,830 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_26.txt
+2025-02-05 13:51:37,831 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:51:37,831 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:51:37,832 Kivy: v2.3.1
+2025-02-05 13:51:37,833 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:51:37,833 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:51:37,833 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:51:37,834 Logger: Purge log fired. Processing...
+2025-02-05 13:51:37,838 Logger: Purge finished!
+2025-02-05 13:51:37,879 Factory: 195 symbols loaded
+2025-02-05 13:51:38,076 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:51:38,114 Window: Provider: sdl2
+2025-02-05 13:51:38,222 GL: Using the "OpenGL" graphics system
+2025-02-05 13:51:38,223 GL: GLEW initialization succeeded
+2025-02-05 13:51:38,224 GL: Backend used <glew>
+2025-02-05 13:51:38,224 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:51:38,224 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:51:38,225 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:51:38,225 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:51:38,225 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:51:38,226 GL: Texture max size <16384>
+2025-02-05 13:51:38,226 GL: Texture max units <32>
+2025-02-05 13:51:38,252 Window: auto add sdl2 input provider
+2025-02-05 13:51:38,254 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:54:49,729 stderr: Traceback (most recent call last):
+2025-02-05 13:54:49,731 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\runpy.py", line 198, in _run_module_as_main
+2025-02-05 13:54:49,732 stderr:     return _run_code(code, main_globals, None,
+2025-02-05 13:54:49,732 stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-02-05 13:54:49,733 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\runpy.py", line 88, in _run_code
+2025-02-05 13:54:49,733 stderr:     exec(code, run_globals)
+2025-02-05 13:54:49,734 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 71, in <module>
+2025-02-05 13:54:49,734 stderr:     cli.main()
+2025-02-05 13:54:49,735 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 501, in main
+2025-02-05 13:54:49,735 stderr:     run()
+2025-02-05 13:54:49,736 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 351, in run_file
+2025-02-05 13:54:49,736 stderr:     runpy.run_path(target, run_name="__main__")
+2025-02-05 13:54:49,737 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 310, in run_path
+2025-02-05 13:54:49,738 stderr:     return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+2025-02-05 13:54:49,738 stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-02-05 13:54:49,738 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 127, in _run_module_code
+2025-02-05 13:54:49,739 stderr:     _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+2025-02-05 13:54:49,739 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 118, in _run_code
+2025-02-05 13:54:49,740 stderr:     exec(code, run_globals)
+2025-02-05 13:54:49,740 stderr:   File "C:\Users\aland\Desktop\art_expres\lito_app.py", line 1475, in <module>
+2025-02-05 13:54:49,742 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 955, in run
+2025-02-05 13:54:49,743 stderr:     self._run_prepare()
+2025-02-05 13:54:49,744 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+2025-02-05 13:54:49,745 stderr:     root = self.build()
+2025-02-05 13:54:49,745 stderr:            ^^^^^^^^^^^^
+2025-02-05 13:54:49,746 stderr:   File "C:\Users\aland\Desktop\art_expres\lito_app.py", line 1471, in build
+2025-02-05 13:54:49,747 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\screenmanager.py", line 1001, in add_widget
+2025-02-05 13:54:49,748 stderr:     self.current = widget.name
+2025-02-05 13:54:49,748 stderr:     ^^^^^^^^^^^^
+2025-02-05 13:54:49,749 stderr:   File "kivy\\properties.pyx", line 520, in kivy.properties.Property.__set__
+2025-02-05 13:54:49,749 stderr:   File "kivy\\properties.pyx", line 567, in kivy.properties.Property.set
+2025-02-05 13:54:49,750 stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2025-02-05 13:54:49,751 stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2025-02-05 13:54:49,752 stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2025-02-05 13:54:49,753 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\screenmanager.py", line 1069, in on_current
+2025-02-05 13:54:49,754 stderr:     screen.dispatch('on_enter')
+2025-02-05 13:54:49,754 stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-02-05 13:54:49,755 stderr:   File "C:\Users\aland\Desktop\art_expres\screens.py", line 128, in on_enter
+2025-02-05 13:54:49,757 stderr: AttributeError: 'NoneType' object has no attribute 'text'
+2025-02-05 13:59:29,301 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 13:59:29,302 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_27.txt
+2025-02-05 13:59:29,303 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 13:59:29,304 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 13:59:29,304 Kivy: v2.3.1
+2025-02-05 13:59:29,304 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 13:59:29,305 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 13:59:29,305 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 13:59:29,306 Logger: Purge log fired. Processing...
+2025-02-05 13:59:29,310 Logger: Purge finished!
+2025-02-05 13:59:29,353 Factory: 195 symbols loaded
+2025-02-05 13:59:29,545 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 13:59:29,581 Window: Provider: sdl2
+2025-02-05 13:59:29,751 GL: Using the "OpenGL" graphics system
+2025-02-05 13:59:29,752 GL: GLEW initialization succeeded
+2025-02-05 13:59:29,753 GL: Backend used <glew>
+2025-02-05 13:59:29,753 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 13:59:29,754 GL: OpenGL vendor <b'Intel'>
+2025-02-05 13:59:29,754 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 13:59:29,754 GL: OpenGL parsed version: 4, 5
+2025-02-05 13:59:29,755 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 13:59:29,755 GL: Texture max size <16384>
+2025-02-05 13:59:29,756 GL: Texture max units <32>
+2025-02-05 13:59:29,780 Window: auto add sdl2 input provider
+2025-02-05 13:59:29,782 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 13:59:29,821 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002DE09CC7540>" was accessed, it will be removed in a future version
+2025-02-05 13:59:29,828 Text: Provider: sdl2
+2025-02-05 13:59:29,847 GL: NPOT texture support is available
+2025-02-05 13:59:29,854 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002DE09CC7540>" was accessed, it will be removed in a future version
+2025-02-05 13:59:29,855 Base: Start application main loop
+2025-02-05 13:59:41,599 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000002DE066A89F0>" was accessed, it will be removed in a future version
+2025-02-05 13:59:44,600 Base: Leaving application in progress...
+2025-02-05 14:00:09,564 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 14:00:09,566 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_28.txt
+2025-02-05 14:00:09,567 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 14:00:09,568 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 14:00:09,568 Kivy: v2.3.1
+2025-02-05 14:00:09,568 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 14:00:09,568 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 14:00:09,569 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 14:00:09,570 Logger: Purge log fired. Processing...
+2025-02-05 14:00:09,574 Logger: Purge finished!
+2025-02-05 14:00:09,615 Factory: 195 symbols loaded
+2025-02-05 14:00:09,756 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 14:00:09,793 Window: Provider: sdl2
+2025-02-05 14:00:09,894 GL: Using the "OpenGL" graphics system
+2025-02-05 14:00:09,895 GL: GLEW initialization succeeded
+2025-02-05 14:00:09,896 GL: Backend used <glew>
+2025-02-05 14:00:09,896 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 14:00:09,896 GL: OpenGL vendor <b'Intel'>
+2025-02-05 14:00:09,897 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 14:00:09,897 GL: OpenGL parsed version: 4, 5
+2025-02-05 14:00:09,897 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 14:00:09,897 GL: Texture max size <16384>
+2025-02-05 14:00:09,898 GL: Texture max units <32>
+2025-02-05 14:00:09,922 Window: auto add sdl2 input provider
+2025-02-05 14:00:09,925 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 14:00:09,964 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001FAEDF4B620>" was accessed, it will be removed in a future version
+2025-02-05 14:00:09,970 Text: Provider: sdl2
+2025-02-05 14:00:09,991 GL: NPOT texture support is available
+2025-02-05 14:00:09,997 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001FAEDF4B620>" was accessed, it will be removed in a future version
+2025-02-05 14:00:09,998 Base: Start application main loop
+2025-02-05 14:00:22,007 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000001FAEBC28A60>" was accessed, it will be removed in a future version
+2025-02-05 14:00:25,473 Base: Leaving application in progress...
+2025-02-05 14:03:54,484 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 14:03:54,486 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_31.txt
+2025-02-05 14:03:54,487 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 14:03:54,487 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 14:03:54,488 Kivy: v2.3.1
+2025-02-05 14:03:54,489 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 14:03:54,489 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 14:03:54,489 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 14:03:54,490 Logger: Purge log fired. Processing...
+2025-02-05 14:03:54,494 Logger: Purge finished!
+2025-02-05 14:03:54,539 Factory: 195 symbols loaded
+2025-02-05 14:03:54,710 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 14:03:54,746 Window: Provider: sdl2
+2025-02-05 14:03:54,846 GL: Using the "OpenGL" graphics system
+2025-02-05 14:03:54,848 GL: GLEW initialization succeeded
+2025-02-05 14:03:54,848 GL: Backend used <glew>
+2025-02-05 14:03:54,848 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 14:03:54,849 GL: OpenGL vendor <b'Intel'>
+2025-02-05 14:03:54,849 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 14:03:54,849 GL: OpenGL parsed version: 4, 5
+2025-02-05 14:03:54,850 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 14:03:54,850 GL: Texture max size <16384>
+2025-02-05 14:03:54,851 GL: Texture max units <32>
+2025-02-05 14:03:54,878 Window: auto add sdl2 input provider
+2025-02-05 14:03:54,881 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 14:03:54,919 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000011ACD5B7540>" was accessed, it will be removed in a future version
+2025-02-05 14:03:54,926 Text: Provider: sdl2
+2025-02-05 14:03:54,946 GL: NPOT texture support is available
+2025-02-05 14:03:54,951 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000011ACD5B7540>" was accessed, it will be removed in a future version
+2025-02-05 14:03:54,954 Base: Start application main loop
+2025-02-05 14:04:06,931 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000011ACB1B8BB0>" was accessed, it will be removed in a future version
+2025-02-05 14:04:12,049 Base: Leaving application in progress...
+2025-02-05 14:36:27,405 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 14:36:27,407 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_32.txt
+2025-02-05 14:36:27,409 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 14:36:27,409 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 14:36:27,410 Kivy: v2.3.1
+2025-02-05 14:36:27,411 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 14:36:27,411 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 14:36:27,412 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 14:36:27,524 Logger: Purge log fired. Processing...
+2025-02-05 14:36:27,530 Logger: Purge finished!
+2025-02-05 14:36:27,584 Factory: 195 symbols loaded
+2025-02-05 14:36:28,008 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 14:36:28,067 Window: Provider: sdl2
+2025-02-05 14:36:28,232 GL: Using the "OpenGL" graphics system
+2025-02-05 14:36:28,235 GL: GLEW initialization succeeded
+2025-02-05 14:36:28,236 GL: Backend used <glew>
+2025-02-05 14:36:28,236 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 14:36:28,237 GL: OpenGL vendor <b'Intel'>
+2025-02-05 14:36:28,237 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 14:36:28,239 GL: OpenGL parsed version: 4, 5
+2025-02-05 14:36:28,239 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 14:36:28,240 GL: Texture max size <16384>
+2025-02-05 14:36:28,241 GL: Texture max units <32>
+2025-02-05 14:36:28,280 Window: auto add sdl2 input provider
+2025-02-05 14:36:28,284 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 14:36:28,357 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000025C27FC7540>" was accessed, it will be removed in a future version
+2025-02-05 14:36:28,368 Text: Provider: sdl2
+2025-02-05 14:36:28,400 GL: NPOT texture support is available
+2025-02-05 14:36:28,407 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000025C27FC7540>" was accessed, it will be removed in a future version
+2025-02-05 14:36:28,410 Base: Start application main loop
+2025-02-05 14:36:44,172 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000025C26C29010>" was accessed, it will be removed in a future version
+2025-02-05 14:37:40,314 Base: Leaving application in progress...
+2025-02-05 14:44:46,371 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 14:44:46,378 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_33.txt
+2025-02-05 14:44:46,379 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 14:44:46,380 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 14:44:46,381 Kivy: v2.3.1
+2025-02-05 14:44:46,381 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 14:44:46,382 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 14:44:46,383 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 14:44:46,384 Logger: Purge log fired. Processing...
+2025-02-05 14:44:46,394 Logger: Purge finished!
+2025-02-05 14:44:46,464 Factory: 195 symbols loaded
+2025-02-05 14:44:46,683 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 14:44:46,729 Window: Provider: sdl2
+2025-02-05 14:44:46,970 GL: Using the "OpenGL" graphics system
+2025-02-05 14:44:46,972 GL: GLEW initialization succeeded
+2025-02-05 14:44:46,972 GL: Backend used <glew>
+2025-02-05 14:44:46,973 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 14:44:46,973 GL: OpenGL vendor <b'Intel'>
+2025-02-05 14:44:46,974 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 14:44:46,975 GL: OpenGL parsed version: 4, 5
+2025-02-05 14:44:46,975 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 14:44:46,976 GL: Texture max size <16384>
+2025-02-05 14:44:46,977 GL: Texture max units <32>
+2025-02-05 14:44:47,007 Window: auto add sdl2 input provider
+2025-02-05 14:44:47,011 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 14:44:47,064 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001A7102C7540>" was accessed, it will be removed in a future version
+2025-02-05 14:44:47,074 Text: Provider: sdl2
+2025-02-05 14:44:47,100 GL: NPOT texture support is available
+2025-02-05 14:44:47,109 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001A7102C7540>" was accessed, it will be removed in a future version
+2025-02-05 14:44:47,112 Base: Start application main loop
+2025-02-05 14:44:59,228 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000001A70DF889F0>" was accessed, it will be removed in a future version
+2025-02-05 14:45:26,391 Base: Leaving application in progress...
+2025-02-05 15:39:59,776 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:39:59,778 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_34.txt
+2025-02-05 15:39:59,779 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:39:59,780 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:39:59,780 Kivy: v2.3.1
+2025-02-05 15:39:59,780 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:39:59,781 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:39:59,781 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:39:59,782 Logger: Purge log fired. Processing...
+2025-02-05 15:39:59,786 Logger: Purge finished!
+2025-02-05 15:39:59,828 Factory: 195 symbols loaded
+2025-02-05 15:39:59,972 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:40:00,008 Window: Provider: sdl2
+2025-02-05 15:40:00,110 GL: Using the "OpenGL" graphics system
+2025-02-05 15:40:00,112 GL: GLEW initialization succeeded
+2025-02-05 15:40:00,113 GL: Backend used <glew>
+2025-02-05 15:40:00,113 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:40:00,113 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:40:00,114 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:40:00,114 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:40:00,115 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:40:00,115 GL: Texture max size <16384>
+2025-02-05 15:40:00,116 GL: Texture max units <32>
+2025-02-05 15:40:00,143 Window: auto add sdl2 input provider
+2025-02-05 15:40:00,145 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:40:00,192 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001363E497540>" was accessed, it will be removed in a future version
+2025-02-05 15:40:00,199 Text: Provider: sdl2
+2025-02-05 15:40:00,219 GL: NPOT texture support is available
+2025-02-05 15:40:00,224 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001363E497540>" was accessed, it will be removed in a future version
+2025-02-05 15:40:00,226 Base: Start application main loop
+2025-02-05 15:40:12,461 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000001363C1589F0>" was accessed, it will be removed in a future version
+2025-02-05 15:40:15,112 Base: Leaving application in progress...
+2025-02-05 15:40:36,045 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:40:36,047 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_35.txt
+2025-02-05 15:40:36,048 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:40:36,049 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:40:36,049 Kivy: v2.3.1
+2025-02-05 15:40:36,049 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:40:36,050 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:40:36,050 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:40:36,051 Logger: Purge log fired. Processing...
+2025-02-05 15:40:36,055 Logger: Purge finished!
+2025-02-05 15:40:36,096 Factory: 195 symbols loaded
+2025-02-05 15:40:36,243 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:40:36,284 Window: Provider: sdl2
+2025-02-05 15:40:36,395 GL: Using the "OpenGL" graphics system
+2025-02-05 15:40:36,397 GL: GLEW initialization succeeded
+2025-02-05 15:40:36,397 GL: Backend used <glew>
+2025-02-05 15:40:36,398 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:40:36,398 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:40:36,398 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:40:36,399 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:40:36,399 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:40:36,400 GL: Texture max size <16384>
+2025-02-05 15:40:36,400 GL: Texture max units <32>
+2025-02-05 15:40:36,427 Window: auto add sdl2 input provider
+2025-02-05 15:40:36,430 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:40:36,468 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001B43EDDB540>" was accessed, it will be removed in a future version
+2025-02-05 15:40:36,474 Text: Provider: sdl2
+2025-02-05 15:40:36,492 GL: NPOT texture support is available
+2025-02-05 15:40:36,496 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001B43EDDB540>" was accessed, it will be removed in a future version
+2025-02-05 15:40:36,498 Base: Start application main loop
+2025-02-05 15:40:41,058 Base: Leaving application in progress...
+2025-02-05 15:41:33,875 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:41:33,877 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_36.txt
+2025-02-05 15:41:33,878 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:41:33,878 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:41:33,879 Kivy: v2.3.1
+2025-02-05 15:41:33,879 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:41:33,879 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:41:33,879 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:41:33,881 Logger: Purge log fired. Processing...
+2025-02-05 15:41:33,886 Logger: Purge finished!
+2025-02-05 15:41:33,927 Factory: 195 symbols loaded
+2025-02-05 15:41:34,070 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:41:34,107 Window: Provider: sdl2
+2025-02-05 15:41:34,214 GL: Using the "OpenGL" graphics system
+2025-02-05 15:41:34,216 GL: GLEW initialization succeeded
+2025-02-05 15:41:34,217 GL: Backend used <glew>
+2025-02-05 15:41:34,217 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:41:34,218 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:41:34,218 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:41:34,218 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:41:34,219 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:41:34,219 GL: Texture max size <16384>
+2025-02-05 15:41:34,219 GL: Texture max units <32>
+2025-02-05 15:41:34,244 Window: auto add sdl2 input provider
+2025-02-05 15:41:34,246 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:41:34,283 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000013316017540>" was accessed, it will be removed in a future version
+2025-02-05 15:41:34,289 Text: Provider: sdl2
+2025-02-05 15:41:34,310 GL: NPOT texture support is available
+2025-02-05 15:41:34,318 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000013316017540>" was accessed, it will be removed in a future version
+2025-02-05 15:41:34,320 Base: Start application main loop
+2025-02-05 15:41:46,075 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000013314D289F0>" was accessed, it will be removed in a future version
+2025-02-05 15:42:29,329 Base: Leaving application in progress...
+2025-02-05 15:43:58,331 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:43:58,332 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_37.txt
+2025-02-05 15:43:58,334 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:43:58,334 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:43:58,334 Kivy: v2.3.1
+2025-02-05 15:43:58,335 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:43:58,335 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:43:58,335 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:43:58,336 Logger: Purge log fired. Processing...
+2025-02-05 15:43:58,340 Logger: Purge finished!
+2025-02-05 15:43:58,382 Factory: 195 symbols loaded
+2025-02-05 15:43:58,524 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:43:58,560 Window: Provider: sdl2
+2025-02-05 15:43:58,660 GL: Using the "OpenGL" graphics system
+2025-02-05 15:43:58,662 GL: GLEW initialization succeeded
+2025-02-05 15:43:58,663 GL: Backend used <glew>
+2025-02-05 15:43:58,663 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:43:58,664 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:43:58,664 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:43:58,665 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:43:58,665 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:43:58,665 GL: Texture max size <16384>
+2025-02-05 15:43:58,666 GL: Texture max units <32>
+2025-02-05 15:43:58,691 Window: auto add sdl2 input provider
+2025-02-05 15:43:58,693 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:43:58,731 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001BE99D7B540>" was accessed, it will be removed in a future version
+2025-02-05 15:43:58,738 Text: Provider: sdl2
+2025-02-05 15:43:58,760 GL: NPOT texture support is available
+2025-02-05 15:43:58,765 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001BE99D7B540>" was accessed, it will be removed in a future version
+2025-02-05 15:43:58,766 Base: Start application main loop
+2025-02-05 15:44:12,814 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000001BE97A99010>" was accessed, it will be removed in a future version
+2025-02-05 15:44:12,840 LabelStart.text accept only str
+2025-02-05 15:44:16,367 Base: Leaving application in progress...
+2025-02-05 15:46:32,284 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:46:32,286 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_38.txt
+2025-02-05 15:46:32,287 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:46:32,288 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:46:32,288 Kivy: v2.3.1
+2025-02-05 15:46:32,288 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:46:32,288 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:46:32,288 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:46:32,290 Logger: Purge log fired. Processing...
+2025-02-05 15:46:32,294 Logger: Purge finished!
+2025-02-05 15:46:32,340 Factory: 195 symbols loaded
+2025-02-05 15:46:32,481 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:46:32,518 Window: Provider: sdl2
+2025-02-05 15:46:32,622 GL: Using the "OpenGL" graphics system
+2025-02-05 15:46:32,624 GL: GLEW initialization succeeded
+2025-02-05 15:46:32,625 GL: Backend used <glew>
+2025-02-05 15:46:32,625 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:46:32,626 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:46:32,627 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:46:32,627 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:46:32,628 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:46:32,628 GL: Texture max size <16384>
+2025-02-05 15:46:32,628 GL: Texture max units <32>
+2025-02-05 15:46:32,653 Window: auto add sdl2 input provider
+2025-02-05 15:46:32,655 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:46:32,695 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002591FEE7540>" was accessed, it will be removed in a future version
+2025-02-05 15:46:32,702 Text: Provider: sdl2
+2025-02-05 15:46:32,721 GL: NPOT texture support is available
+2025-02-05 15:46:32,727 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002591FEE7540>" was accessed, it will be removed in a future version
+2025-02-05 15:46:32,729 Base: Start application main loop
+2025-02-05 15:46:47,405 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000002591EAD5320>" was accessed, it will be removed in a future version
+2025-02-05 15:46:47,432 LabelStart.text accept only str
+2025-02-05 15:46:52,128 Base: Leaving application in progress...
+2025-02-05 15:48:28,210 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:48:28,211 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_39.txt
+2025-02-05 15:48:28,212 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:48:28,213 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:48:28,213 Kivy: v2.3.1
+2025-02-05 15:48:28,213 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:48:28,214 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:48:28,214 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:48:28,215 Logger: Purge log fired. Processing...
+2025-02-05 15:48:28,219 Logger: Purge finished!
+2025-02-05 15:48:28,262 Factory: 195 symbols loaded
+2025-02-05 15:48:28,421 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:48:28,462 Window: Provider: sdl2
+2025-02-05 15:48:28,563 GL: Using the "OpenGL" graphics system
+2025-02-05 15:48:28,565 GL: GLEW initialization succeeded
+2025-02-05 15:48:28,566 GL: Backend used <glew>
+2025-02-05 15:48:28,566 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:48:28,567 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:48:28,567 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:48:28,567 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:48:28,568 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:48:28,568 GL: Texture max size <16384>
+2025-02-05 15:48:28,568 GL: Texture max units <32>
+2025-02-05 15:48:28,592 Window: auto add sdl2 input provider
+2025-02-05 15:48:28,594 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:48:28,632 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002813A53B540>" was accessed, it will be removed in a future version
+2025-02-05 15:48:28,639 Text: Provider: sdl2
+2025-02-05 15:48:28,658 GL: NPOT texture support is available
+2025-02-05 15:48:28,664 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002813A53B540>" was accessed, it will be removed in a future version
+2025-02-05 15:48:28,665 Base: Start application main loop
+2025-02-05 15:48:40,382 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000028138188BB0>" was accessed, it will be removed in a future version
+2025-02-05 15:48:40,410 'MainScreen' object has no attribute 'lbl_sold_out_message'
+2025-02-05 15:48:43,782 Base: Leaving application in progress...
+2025-02-05 15:48:52,172 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:48:52,174 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_40.txt
+2025-02-05 15:48:52,175 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:48:52,175 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:48:52,176 Kivy: v2.3.1
+2025-02-05 15:48:52,176 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:48:52,177 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:48:52,177 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:48:52,178 Logger: Purge log fired. Processing...
+2025-02-05 15:48:52,184 Logger: Purge finished!
+2025-02-05 15:48:52,226 Factory: 195 symbols loaded
+2025-02-05 15:48:52,369 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:48:52,407 Window: Provider: sdl2
+2025-02-05 15:48:52,510 GL: Using the "OpenGL" graphics system
+2025-02-05 15:48:52,512 GL: GLEW initialization succeeded
+2025-02-05 15:48:52,512 GL: Backend used <glew>
+2025-02-05 15:48:52,512 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:48:52,513 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:48:52,513 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:48:52,513 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:48:52,514 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:48:52,514 GL: Texture max size <16384>
+2025-02-05 15:48:52,514 GL: Texture max units <32>
+2025-02-05 15:48:52,542 Window: auto add sdl2 input provider
+2025-02-05 15:48:52,543 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:48:52,580 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000024F28687540>" was accessed, it will be removed in a future version
+2025-02-05 15:48:52,588 Text: Provider: sdl2
+2025-02-05 15:48:52,606 GL: NPOT texture support is available
+2025-02-05 15:48:52,611 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000024F28687540>" was accessed, it will be removed in a future version
+2025-02-05 15:48:52,613 Base: Start application main loop
+2025-02-05 15:49:04,431 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000024F262C8BB0>" was accessed, it will be removed in a future version
+2025-02-05 15:49:27,322 Base: Leaving application in progress...
+2025-02-05 15:51:34,879 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:51:34,880 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_41.txt
+2025-02-05 15:51:34,881 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:51:34,882 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:51:34,882 Kivy: v2.3.1
+2025-02-05 15:51:34,883 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:51:34,883 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:51:34,884 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:51:34,895 Logger: Purge log fired. Processing...
+2025-02-05 15:51:34,900 Logger: Purge finished!
+2025-02-05 15:51:34,944 Factory: 195 symbols loaded
+2025-02-05 15:51:35,087 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:51:35,123 Window: Provider: sdl2
+2025-02-05 15:51:35,227 GL: Using the "OpenGL" graphics system
+2025-02-05 15:51:35,229 GL: GLEW initialization succeeded
+2025-02-05 15:51:35,230 GL: Backend used <glew>
+2025-02-05 15:51:35,230 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:51:35,231 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:51:35,231 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:51:35,231 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:51:35,232 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:51:35,233 GL: Texture max size <16384>
+2025-02-05 15:51:35,233 GL: Texture max units <32>
+2025-02-05 15:51:35,257 Window: auto add sdl2 input provider
+2025-02-05 15:51:35,259 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:51:35,303 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000018D3080B540>" was accessed, it will be removed in a future version
+2025-02-05 15:51:35,310 Text: Provider: sdl2
+2025-02-05 15:51:35,328 GL: NPOT texture support is available
+2025-02-05 15:51:35,333 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000018D3080B540>" was accessed, it will be removed in a future version
+2025-02-05 15:51:35,334 Base: Start application main loop
+2025-02-05 15:51:47,693 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000018D2D208D00>" was accessed, it will be removed in a future version
+2025-02-05 15:51:52,429 Base: Leaving application in progress...
+2025-02-05 15:52:58,578 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:52:58,580 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_42.txt
+2025-02-05 15:52:58,581 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:52:58,581 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:52:58,581 Kivy: v2.3.1
+2025-02-05 15:52:58,582 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:52:58,583 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:52:58,583 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:52:58,584 Logger: Purge log fired. Processing...
+2025-02-05 15:52:58,588 Logger: Purge finished!
+2025-02-05 15:52:58,634 Factory: 195 symbols loaded
+2025-02-05 15:52:58,782 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:52:58,817 Window: Provider: sdl2
+2025-02-05 15:52:58,926 GL: Using the "OpenGL" graphics system
+2025-02-05 15:52:58,928 GL: GLEW initialization succeeded
+2025-02-05 15:52:58,929 GL: Backend used <glew>
+2025-02-05 15:52:58,929 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:52:58,930 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:52:58,930 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:52:58,931 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:52:58,932 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:52:58,932 GL: Texture max size <16384>
+2025-02-05 15:52:58,933 GL: Texture max units <32>
+2025-02-05 15:52:58,958 Window: auto add sdl2 input provider
+2025-02-05 15:52:58,960 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:52:59,006 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002197DE4B540>" was accessed, it will be removed in a future version
+2025-02-05 15:52:59,015 Text: Provider: sdl2
+2025-02-05 15:52:59,034 GL: NPOT texture support is available
+2025-02-05 15:52:59,039 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002197DE4B540>" was accessed, it will be removed in a future version
+2025-02-05 15:52:59,040 Base: Start application main loop
+2025-02-05 15:53:11,166 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000002197BA489F0>" was accessed, it will be removed in a future version
+2025-02-05 15:53:38,015 Base: Leaving application in progress...
+2025-02-05 15:56:36,135 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:56:36,137 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_43.txt
+2025-02-05 15:56:36,138 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:56:36,139 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:56:36,140 Kivy: v2.3.1
+2025-02-05 15:56:36,140 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:56:36,140 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:56:36,141 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:56:36,141 Logger: Purge log fired. Processing...
+2025-02-05 15:56:36,146 Logger: Purge finished!
+2025-02-05 15:56:36,188 Factory: 195 symbols loaded
+2025-02-05 15:56:36,332 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:56:36,366 Window: Provider: sdl2
+2025-02-05 15:56:36,474 GL: Using the "OpenGL" graphics system
+2025-02-05 15:56:36,476 GL: GLEW initialization succeeded
+2025-02-05 15:56:36,476 GL: Backend used <glew>
+2025-02-05 15:56:36,477 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:56:36,477 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:56:36,478 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:56:36,478 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:56:36,478 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:56:36,479 GL: Texture max size <16384>
+2025-02-05 15:56:36,479 GL: Texture max units <32>
+2025-02-05 15:56:36,502 Window: auto add sdl2 input provider
+2025-02-05 15:56:36,505 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:56:36,545 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000019562597540>" was accessed, it will be removed in a future version
+2025-02-05 15:56:36,552 Text: Provider: sdl2
+2025-02-05 15:56:36,572 GL: NPOT texture support is available
+2025-02-05 15:56:36,577 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000019562597540>" was accessed, it will be removed in a future version
+2025-02-05 15:56:36,578 Base: Start application main loop
+2025-02-05 15:56:52,343 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x00000195612A8D70>" was accessed, it will be removed in a future version
+2025-02-05 15:56:52,371 LabelStart.text accept only str
+2025-02-05 15:56:54,272 Base: Leaving application in progress...
+2025-02-05 15:58:05,347 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:58:05,349 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_44.txt
+2025-02-05 15:58:05,350 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:58:05,351 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:58:05,351 Kivy: v2.3.1
+2025-02-05 15:58:05,351 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:58:05,352 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:58:05,352 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:58:05,362 Logger: Purge log fired. Processing...
+2025-02-05 15:58:05,368 Logger: Purge finished!
+2025-02-05 15:58:05,411 Factory: 195 symbols loaded
+2025-02-05 15:58:05,583 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:58:05,618 Window: Provider: sdl2
+2025-02-05 15:58:05,726 GL: Using the "OpenGL" graphics system
+2025-02-05 15:58:05,727 GL: GLEW initialization succeeded
+2025-02-05 15:58:05,727 GL: Backend used <glew>
+2025-02-05 15:58:05,728 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:58:05,728 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:58:05,728 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:58:05,728 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:58:05,729 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:58:05,729 GL: Texture max size <16384>
+2025-02-05 15:58:05,729 GL: Texture max units <32>
+2025-02-05 15:58:05,755 Window: auto add sdl2 input provider
+2025-02-05 15:58:05,757 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:58:05,794 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002654DB57540>" was accessed, it will be removed in a future version
+2025-02-05 15:58:05,801 Text: Provider: sdl2
+2025-02-05 15:58:05,822 GL: NPOT texture support is available
+2025-02-05 15:58:05,826 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002654DB57540>" was accessed, it will be removed in a future version
+2025-02-05 15:58:05,828 Base: Start application main loop
+2025-02-05 15:58:22,269 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000002654B8256A0>" was accessed, it will be removed in a future version
+2025-02-05 15:58:22,295 LabelStart.text accept only str
+2025-02-05 15:58:24,297 Base: Leaving application in progress...
+2025-02-05 15:59:03,890 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:59:03,892 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_45.txt
+2025-02-05 15:59:03,893 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:59:03,894 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:59:03,894 Kivy: v2.3.1
+2025-02-05 15:59:03,895 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:59:03,895 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:59:03,895 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:59:03,896 Logger: Purge log fired. Processing...
+2025-02-05 15:59:03,901 Logger: Purge finished!
+2025-02-05 15:59:03,964 Factory: 195 symbols loaded
+2025-02-05 15:59:04,104 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:59:04,142 Window: Provider: sdl2
+2025-02-05 15:59:04,244 GL: Using the "OpenGL" graphics system
+2025-02-05 15:59:04,246 GL: GLEW initialization succeeded
+2025-02-05 15:59:04,246 GL: Backend used <glew>
+2025-02-05 15:59:04,246 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:59:04,247 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:59:04,247 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:59:04,248 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:59:04,248 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:59:04,248 GL: Texture max size <16384>
+2025-02-05 15:59:04,249 GL: Texture max units <32>
+2025-02-05 15:59:04,275 Window: auto add sdl2 input provider
+2025-02-05 15:59:04,277 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:59:04,315 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002146C16B540>" was accessed, it will be removed in a future version
+2025-02-05 15:59:04,323 Text: Provider: sdl2
+2025-02-05 15:59:04,339 GL: NPOT texture support is available
+2025-02-05 15:59:04,341 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002146C16B540>" was accessed, it will be removed in a future version
+2025-02-05 15:59:04,342 Base: Start application main loop
+2025-02-05 15:59:16,107 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x000002146AD289F0>" was accessed, it will be removed in a future version
+2025-02-05 15:59:16,136 'MainScreen' object has no attribute 'lbl_languages'
+2025-02-05 15:59:16,138 LabelStart.text accept only str
+2025-02-05 15:59:17,145 Multiple screens named "load": [<Screen name='load'>, <Screen name='load'>]
+2025-02-05 15:59:17,867 Base: Leaving application in progress...
+2025-02-05 15:59:43,841 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 15:59:43,843 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_46.txt
+2025-02-05 15:59:43,844 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 15:59:43,844 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 15:59:43,845 Kivy: v2.3.1
+2025-02-05 15:59:43,845 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 15:59:43,846 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 15:59:43,846 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 15:59:43,846 Logger: Purge log fired. Processing...
+2025-02-05 15:59:43,852 Logger: Purge finished!
+2025-02-05 15:59:43,894 Factory: 195 symbols loaded
+2025-02-05 15:59:44,059 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 15:59:44,095 Window: Provider: sdl2
+2025-02-05 15:59:44,201 GL: Using the "OpenGL" graphics system
+2025-02-05 15:59:44,202 GL: GLEW initialization succeeded
+2025-02-05 15:59:44,202 GL: Backend used <glew>
+2025-02-05 15:59:44,202 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 15:59:44,203 GL: OpenGL vendor <b'Intel'>
+2025-02-05 15:59:44,203 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 15:59:44,203 GL: OpenGL parsed version: 4, 5
+2025-02-05 15:59:44,203 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 15:59:44,204 GL: Texture max size <16384>
+2025-02-05 15:59:44,204 GL: Texture max units <32>
+2025-02-05 15:59:44,231 Window: auto add sdl2 input provider
+2025-02-05 15:59:44,233 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 15:59:44,271 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x00000165E071B540>" was accessed, it will be removed in a future version
+2025-02-05 15:59:44,279 Text: Provider: sdl2
+2025-02-05 15:59:44,307 GL: NPOT texture support is available
+2025-02-05 15:59:44,312 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x00000165E071B540>" was accessed, it will be removed in a future version
+2025-02-05 15:59:44,314 Base: Start application main loop
+2025-02-05 15:59:56,376 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x00000165DD128BB0>" was accessed, it will be removed in a future version
+2025-02-05 16:00:15,629 Base: Leaving application in progress...
+2025-02-05 17:12:32,375 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 17:12:32,377 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_47.txt
+2025-02-05 17:12:32,378 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 17:12:32,379 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 17:12:32,380 Kivy: v2.3.1
+2025-02-05 17:12:32,380 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 17:12:32,380 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 17:12:32,380 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 17:12:32,381 Logger: Purge log fired. Processing...
+2025-02-05 17:12:32,387 Logger: Purge finished!
+2025-02-05 17:12:32,436 Factory: 195 symbols loaded
+2025-02-05 17:12:32,602 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 17:12:32,638 Window: Provider: sdl2
+2025-02-05 17:12:32,824 GL: Using the "OpenGL" graphics system
+2025-02-05 17:12:32,826 GL: GLEW initialization succeeded
+2025-02-05 17:12:32,827 GL: Backend used <glew>
+2025-02-05 17:12:32,827 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 17:12:32,827 GL: OpenGL vendor <b'Intel'>
+2025-02-05 17:12:32,828 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 17:12:32,828 GL: OpenGL parsed version: 4, 5
+2025-02-05 17:12:32,829 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 17:12:32,829 GL: Texture max size <16384>
+2025-02-05 17:12:32,829 GL: Texture max units <32>
+2025-02-05 17:12:32,859 Window: auto add sdl2 input provider
+2025-02-05 17:12:32,861 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 17:12:32,907 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000001F8C77B74D0>" was accessed, it will be removed in a future version
+2025-02-05 17:12:32,914 Text: Provider: sdl2
+2025-02-05 17:12:32,935 GL: NPOT texture support is available
+2025-02-05 17:12:32,941 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000001F8C77B74D0>" was accessed, it will be removed in a future version
+2025-02-05 17:12:32,943 Base: Start application main loop
+2025-02-05 17:12:42,502 Base: Leaving application in progress...
+2025-02-05 17:13:56,274 stderr: Traceback (most recent call last):
+2025-02-05 17:13:56,275 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\runpy.py", line 198, in _run_module_as_main
+2025-02-05 17:13:56,276 stderr:     return _run_code(code, main_globals, None,
+2025-02-05 17:13:56,276 stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-02-05 17:13:56,277 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\runpy.py", line 88, in _run_code
+2025-02-05 17:13:56,278 stderr:     exec(code, run_globals)
+2025-02-05 17:13:56,278 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 71, in <module>
+2025-02-05 17:13:56,279 stderr:     cli.main()
+2025-02-05 17:13:56,279 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 501, in main
+2025-02-05 17:13:56,280 stderr:     run()
+2025-02-05 17:13:56,280 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 351, in run_file
+2025-02-05 17:13:56,281 stderr:     runpy.run_path(target, run_name="__main__")
+2025-02-05 17:13:56,281 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 310, in run_path
+2025-02-05 17:13:56,282 stderr:     return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+2025-02-05 17:13:56,282 stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-02-05 17:13:56,282 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 127, in _run_module_code
+2025-02-05 17:13:56,283 stderr:     _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+2025-02-05 17:13:56,284 stderr:   File "c:\Users\aland\.vscode\extensions\ms-python.debugpy-2024.14.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 118, in _run_code
+2025-02-05 17:13:56,284 stderr:     exec(code, run_globals)
+2025-02-05 17:13:56,284 stderr:   File "C:\Users\aland\Desktop\art_expres\lito_app.py", line 1425, in <module>
+2025-02-05 17:13:56,286 stderr:     content = [line.strip() for line in content]
+2025-02-05 17:13:56,286 stderr: ^^^^^^^^^^^
+2025-02-05 17:13:56,286 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2025-02-05 17:13:56,289 stderr:     runTouchApp()
+2025-02-05 17:13:56,289 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-02-05 17:13:56,289 stderr:     EventLoop.mainloop()
+2025-02-05 17:13:56,289 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-02-05 17:13:56,290 stderr:     self.idle()
+2025-02-05 17:13:56,290 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-02-05 17:13:56,292 stderr:     Clock.tick()
+2025-02-05 17:13:56,292 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-02-05 17:13:56,293 stderr:     self.post_idle(ts, self.idle())
+2025-02-05 17:13:56,293 stderr:   File "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+2025-02-05 17:13:56,294 stderr:     self._process_events()
+2025-02-05 17:13:56,295 stderr:   File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+2025-02-05 17:13:56,295 stderr:   File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+2025-02-05 17:13:56,296 stderr:   File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+2025-02-05 17:13:56,297 stderr:   File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+2025-02-05 17:13:56,298 stderr:   File "C:\Users\aland\Desktop\art_expres\lito_app.py", line 134, in try_internet_connection
+2025-02-05 17:13:56,298 stderr:     self.check_data()
+2025-02-05 17:13:56,299 stderr:   File "C:\Users\aland\Desktop\art_expres\lito_app.py", line 316, in check_data
+2025-02-05 17:13:56,300 stderr:     self.errors.append(u'[ERROR] File: /data/' + lito_directory + '/' + lito_file)
+2025-02-05 17:13:56,300 stderr: ^^^
+2025-02-05 17:13:56,300 stderr: TypeError: can only concatenate str (not "TypeError") to str
+2025-02-05 17:14:00,553 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 17:14:00,556 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_48.txt
+2025-02-05 17:14:00,556 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 17:14:00,557 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 17:14:00,557 Kivy: v2.3.1
+2025-02-05 17:14:00,557 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 17:14:00,558 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 17:14:00,558 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 17:14:00,559 Logger: Purge log fired. Processing...
+2025-02-05 17:14:00,565 Logger: Purge finished!
+2025-02-05 17:14:00,605 Factory: 195 symbols loaded
+2025-02-05 17:14:00,746 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 17:14:00,780 Window: Provider: sdl2
+2025-02-05 17:14:00,886 GL: Using the "OpenGL" graphics system
+2025-02-05 17:14:00,888 GL: GLEW initialization succeeded
+2025-02-05 17:14:00,889 GL: Backend used <glew>
+2025-02-05 17:14:00,889 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 17:14:00,889 GL: OpenGL vendor <b'Intel'>
+2025-02-05 17:14:00,890 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 17:14:00,890 GL: OpenGL parsed version: 4, 5
+2025-02-05 17:14:00,890 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 17:14:00,891 GL: Texture max size <16384>
+2025-02-05 17:14:00,891 GL: Texture max units <32>
+2025-02-05 17:14:00,916 Window: auto add sdl2 input provider
+2025-02-05 17:14:00,918 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 17:14:00,958 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000017BB059B4D0>" was accessed, it will be removed in a future version
+2025-02-05 17:14:00,965 Text: Provider: sdl2
+2025-02-05 17:14:00,983 GL: NPOT texture support is available
+2025-02-05 17:14:00,989 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000017BB059B4D0>" was accessed, it will be removed in a future version
+2025-02-05 17:14:00,990 Base: Start application main loop
+2025-02-05 17:14:13,259 Deprecated property "<NumericProperty name=padding_y>" of object "<kivy.factory.LabelMainFont object at 0x0000017BACF88B40>" was accessed, it will be removed in a future version
+2025-02-05 17:14:24,131 Base: Leaving application in progress...
+2025-02-05 17:19:48,884 deps: Successfully imported "kivy_deps.angle" 0.4.0
+2025-02-05 17:19:48,886 Logger: Record log in C:\Users\aland\.kivy\logs\kivy_25-02-05_49.txt
+2025-02-05 17:19:48,887 deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-02-05 17:19:48,888 deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+2025-02-05 17:19:48,888 Kivy: v2.3.1
+2025-02-05 17:19:48,888 Kivy: Installed at "c:\Users\aland\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\__init__.py"
+2025-02-05 17:19:48,889 Python: v3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]
+2025-02-05 17:19:48,889 Python: Interpreter at "c:\Users\aland\AppData\Local\Programs\Python\Python312\python.exe"
+2025-02-05 17:19:48,891 Logger: Purge log fired. Processing...
+2025-02-05 17:19:48,897 Logger: Purge finished!
+2025-02-05 17:19:48,938 Factory: 195 symbols loaded
+2025-02-05 17:19:49,152 Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2025-02-05 17:19:49,202 Window: Provider: sdl2
+2025-02-05 17:19:49,304 GL: Using the "OpenGL" graphics system
+2025-02-05 17:19:49,306 GL: GLEW initialization succeeded
+2025-02-05 17:19:49,306 GL: Backend used <glew>
+2025-02-05 17:19:49,307 GL: OpenGL version <b'4.5.0 - Build 24.20.100.6345'>
+2025-02-05 17:19:49,307 GL: OpenGL vendor <b'Intel'>
+2025-02-05 17:19:49,307 GL: OpenGL renderer <b'Intel(R) UHD Graphics 630'>
+2025-02-05 17:19:49,308 GL: OpenGL parsed version: 4, 5
+2025-02-05 17:19:49,308 GL: Shading version <b'4.50 - Build 24.20.100.6345'>
+2025-02-05 17:19:49,308 GL: Texture max size <16384>
+2025-02-05 17:19:49,309 GL: Texture max units <32>
+2025-02-05 17:19:49,339 Window: auto add sdl2 input provider
+2025-02-05 17:19:49,340 Window: virtual keyboard not allowed, single mode, not docked
+2025-02-05 17:19:49,407 Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x000002323B0BB4D0>" was accessed, it will be removed in a future version
+2025-02-05 17:19:49,416 Text: Provider: sdl2
+2025-02-05 17:19:49,434 GL: NPOT texture support is available
+2025-02-05 17:19:49,438 Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x000002323B0BB4D0>" was accessed, it will be removed in a future version
+2025-02-05 17:19:49,439 Base: Start application main loop
+2025-02-05 17:19:59,035 Base: Leaving application in progress...

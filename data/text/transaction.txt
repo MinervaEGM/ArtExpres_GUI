@@ -1,0 +1,4 @@
+Iniciar transacción
+Start transaction
+Démarrer la transaction
+end

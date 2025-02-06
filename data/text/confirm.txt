@@ -1,0 +1,4 @@
+Confirmar compra
+Confirm purchase
+Confirmer l'achat
+end

@@ -1,0 +1,4 @@
+Paso
+Step
+Étape
+end

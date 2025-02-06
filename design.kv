@@ -1,0 +1,989 @@
+#v2.2 30/06/2023
+
+#:kivy 1.11.1
+#:import ScrollEffect kivy.effects.scroll.ScrollEffect
+
+<LoadScreen>:
+	name: 'load'
+	lbl_action: lbl_action
+	pgr_load_progress: pgr_load_progress
+	lbl_info: lbl_info
+
+	background_color: [0, 0, 0, 1]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
+
+	FloatLayout:
+		Image:
+			size_hint: (0.6, 0.3)
+			pos_hint: {'x':0.2, 'y':0.65}
+			source: 'design/logo_lock.png'
+			allow_stretch: True
+			
+		LabelThirdFont:
+			id: lbl_action
+			size_hint: (0.6, 0.05)
+			pos_hint: {'x':0.2, 'y':0.55}
+			color: [1, 1, 1, 1]
+			font_size: '36sp'
+			bold: True
+			halign: 'center'
+
+		ProgressBar:
+			id: pgr_load_progress
+			size_hint: (0.6, 0.05)
+			pos_hint: {'x':0.2, 'y':0.5}
+			max: 100
+			value: 0
+			
+		ScrollView:
+			size_hint: (0.6, 0.45)
+			pos_hint: {'x':0.2, 'y':0.05}
+			effect_cls: ScrollEffect
+			do_scroll_x: False
+			do_scroll_y: True
+			bar_width: 10
+			bar_color: [1, 1, 1, 1]
+			bar_inactive_color: [0.5, 0.5, 0.5, 1]
+			bar_margin: -20
+
+			LabelThirdFont:
+				id: lbl_info
+				size_hint_y: None
+				height: self.texture_size[1]
+				text_size: (self.width, None)
+				color: [1, 1, 1, 1]
+				font_size: '32sp'
+				halign: 'justify'
+
+		LabelThirdFont:
+			text: 'v2.2 30/06/2023'
+			text_size: self.size
+			size_hint: (1, 0.05)
+			pos_hint: {'x':0, 'y':0}
+			color: [1, 1, 1, 1]
+			font_size: '24sp'
+			halign: 'right'
+			padding: (10, 10)
+
+<LockScreen>:
+	name: 'lock'
+
+	img_anim_1: img_anim_1
+	img_anim_2: img_anim_2
+	lbl_lock: lbl_lock
+	img_bottom: img_bottom
+	img_flash_1: img_flash_1
+	img_flash_2: img_flash_2
+	img_flash_3: img_flash_3
+	img_flash_4: img_flash_4
+	img_flash_5: img_flash_5
+	img_logo: img_logo
+	lbl_unam: lbl_unam
+	lbl_subtitle: lbl_subtitle
+	img_focus: img_focus
+
+	background_color: [1, 1, 1, 1]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
+
+	FloatLayout:
+
+		Image:
+			id: img_anim_1
+			size_hint: (1, 1)
+			pos_hint: {'x':0, 'y':0}
+			allow_stretch: True
+			opacity: 0
+
+		Image:
+			id: img_anim_2
+			size_hint: (1, 1)
+			pos_hint: {'x':0, 'y':0}
+			allow_stretch: True
+			opacity: 0
+
+		LabelMainFont:
+			id: lbl_lock
+			font_size: '44sp'
+			size_hint: (1, None)
+			pos_hint: {'x':0, 'y':0}
+			background_color: [0, 0, 0, .6]
+			padding: (10, 10)
+			opacity: 0
+
+		Image:
+			id: img_bottom
+			allow_stretch: True
+			keep_ratio: True
+			source: 'design/back_0.png'
+			opacity: 1
+
+		Image:
+			id: img_flash_1
+			allow_stretch: True
+			keep_ratio: True
+			source: 'design/back_1.png'
+			opacity: 0
+		Image:
+			id: img_flash_2
+			allow_stretch: True
+			keep_ratio: True
+			source: 'design/back_2.png'
+			opacity: 0
+		Image:
+			id: img_flash_3
+			allow_stretch: True
+			keep_ratio: True
+			source: 'design/back_3.png'
+			opacity: 0
+		Image:
+			id: img_flash_4
+			allow_stretch: True
+			keep_ratio: True
+			source: 'design/back_4.png'
+			opacity: 0
+		Image:
+			id: img_flash_5
+			allow_stretch: True
+			keep_ratio: True
+			source: 'design/back_5.png'
+			opacity: 0
+
+		LabelMainFont:
+			id: lbl_unam
+			size_hint: (1, 0.2)
+			pos_hint: {'x':0, 'y':0.7}
+			font_size: '50sp'
+			color: [1, 1, 1, 1]
+			bold: True
+
+		Image:
+			id: img_logo
+			size_hint: (1, 0.4)
+			pos_hint: {'x':0, 'y':0.3}
+			allow_stretch: True
+			keep_ratio: True
+			source: 'design/logo_lock.png'
+
+		LabelMainFont:
+			id: lbl_subtitle
+			size_hint: (1, 0.2)
+			pos_hint: {'x':0, 'y':0.1}
+			font_size: '50sp'
+			color: [1, 1, 1, 1]
+			bold: True
+
+		Image:
+			size_hint: (0.2, 0.3)
+			pos_hint: {'x':0.8, 'y':0.7}
+			source: 'design/touch.png'
+
+		Image:
+			id: img_focus
+			size_hint: (0, 0)
+			pos_hint: {'x':0.9, 'y':0.85}
+			source: 'design/focus.png'
+			opacity: 0
+	
+		Button:
+			size_hint: (1, 1)
+			pos_hint: {'x':0, 'y':0}
+			background_color: [1, 1, 1, 0]
+			on_release: root.show_main_screen()
+
+<MainScreen>:
+	name: 'main'
+	
+	btn_lito_0: btn_lito_0
+	btn_lito_1: btn_lito_1
+	btn_lito_2: btn_lito_2
+	btn_lito_3: btn_lito_3
+	btn_lito_4: btn_lito_4
+	btn_lito_5: btn_lito_5
+	btn_lito_6: btn_lito_6
+	btn_lito_7: btn_lito_7
+	btn_lito_8: btn_lito_8
+	btn_lito_9: btn_lito_9
+
+	lbl_lito_0_info: lbl_lito_0_info
+	lbl_lito_1_info: lbl_lito_1_info
+	lbl_lito_2_info: lbl_lito_2_info
+	lbl_lito_3_info: lbl_lito_3_info
+	lbl_lito_4_info: lbl_lito_4_info
+	lbl_lito_5_info: lbl_lito_5_info
+	lbl_lito_6_info: lbl_lito_6_info
+	lbl_lito_7_info: lbl_lito_7_info
+	lbl_lito_8_info: lbl_lito_8_info
+	lbl_lito_9_info: lbl_lito_9_info
+
+	lyt_start: lyt_start
+	lbl_top_message: lbl_top_message
+	img_logo: img_logo
+	lbl_bottom_message: lbl_bottom_message
+	btn_lang_0: btn_lang_0
+	btn_lang_1: btn_lang_1
+	btn_lang_2: btn_lang_2
+
+	lbl_lang_0: lbl_lang_0
+	lbl_lang_1: lbl_lang_1
+	lbl_lang_2: lbl_lang_2
+
+	lyt_center: lyt_center
+	img_center: img_center
+	lbl_title: lbl_title
+	img_info: img_info
+
+	bbl_more_info: bbl_more_info
+	bblbtn_more_info: bblbtn_more_info
+
+	background_color: [1, 1, 1, 1]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
+
+	FloatLayout:
+
+		LitoButton:
+			id: btn_lito_0
+			size_hint: (0.495, 0.2)
+			pos_hint: {'x':0, 'y':0.8}
+			source: 'data/lito_0/lito.jpg'
+			on_release: root.onClickLito(0)
+
+		LabelStart:
+			id: lbl_lito_0_info
+			size_hint: (0.495, 0.2)
+			pos_hint: {'x':0, 'y':0.8}
+
+		LitoButton:
+			id: btn_lito_1
+			size_hint: (0.245, 0.2)
+			pos_hint: {'x':0.5, 'y':0.8}
+			source: 'data/lito_1/lito.jpg'
+			on_release: root.onClickLito(1)
+
+		LabelStart:
+			id: lbl_lito_1_info
+			size_hint: (0.245, 0.2)
+			pos_hint: {'x':0.5, 'y':0.8}
+
+		LitoButton:
+			id: btn_lito_2
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0.75, 'y':0.74}
+			source: 'data/lito_2/lito.jpg'
+			on_release: root.onClickLito(2)
+
+		LabelStart:
+			id: lbl_lito_2_info
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0.75, 'y':0.74}
+
+		LitoButton:
+			id: btn_lito_3
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0.75, 'y':0.4733}
+			source: 'data/lito_3/lito.jpg'
+			on_release: root.onClickLito(3)
+
+		LabelStart:
+			id: lbl_lito_3_info
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0.75, 'y':0.4733}
+
+		LitoButton:
+			id: btn_lito_4
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0.75, 'y':0.2066}
+			source: 'data/lito_4/lito.jpg'
+			on_release: root.onClickLito(4)
+
+		LabelStart:
+			id: lbl_lito_4_info
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0.75, 'y':0.2066}
+
+		LitoButton:
+			id: btn_lito_5
+			size_hint: (0.495, 0.2)
+			pos_hint: {'x':0.505, 'y':0}
+			source: 'data/lito_5/lito.jpg'
+			on_release: root.onClickLito(5)
+
+		LabelStart:
+			id: lbl_lito_5_info
+			size_hint: (0.495, 0.2)
+			pos_hint: {'x':0.505, 'y':0}
+
+		LitoButton:
+			id: btn_lito_6
+			size_hint: (0.245, 0.2)
+			pos_hint: {'x':0.255, 'y':0}
+			source: 'data/lito_6/lito.jpg'
+			on_release: root.onClickLito(6)
+
+		LabelStart:
+			id: lbl_lito_6_info
+			size_hint: (0.245, 0.2)
+			pos_hint: {'x':0.255, 'y':0}
+
+		LitoButton:
+			id: btn_lito_7
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0, 'y':0}
+			source: 'data/lito_7/lito.jpg'
+			on_release: root.onClickLito(7)
+
+		LabelStart:
+			id: lbl_lito_7_info
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0, 'y':0}
+
+		LitoButton:
+			id: btn_lito_8
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0, 'y':0.2667}
+			source: 'data/lito_8/lito.jpg'
+			on_release: root.onClickLito(8)
+
+		LabelStart:
+			id: lbl_lito_8_info
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0, 'y':0.2667}
+
+		LitoButton:
+			id: btn_lito_9
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0, 'y':0.5334}
+			source: 'data/lito_9/lito.jpg'
+			on_release: root.onClickLito(9)
+
+		LabelStart:
+			id: lbl_lito_9_info
+			size_hint: (0.25, 0.26)
+			pos_hint: {'x':0, 'y':0.5334}
+
+		FloatLayout:
+			id: lyt_start
+			size_hint: (0.49, 0.59)
+			pos_hint: {'x':0.255, 'y':0.205}
+
+			LabelSecondFont:
+				id: lbl_top_message
+				size_hint: (1, 0.1)
+				pos_hint: {'x':0, 'y':0.85}
+				font_size: 28
+				color: [0, 0, 0, 1]
+				bold: True
+
+			Image:
+				id: img_logo
+				size_hint: (1, 0.55)
+				pos_hint: {'x':0, 'y':0.3}
+				keep_ratio: True
+				allow_stretch: True
+				
+			LabelSecondFont:
+				id: lbl_bottom_message
+				size_hint: (1, 0.1)
+				pos_hint: {'x':0, 'y':0.2}
+				font_size: 24
+				color: [0, 0, 0, 1]
+
+			ImageButton:
+				id: btn_lang_0
+				size_hint: (0.3333, 0.1)
+				pos_hint: {'x':0, 'y':0.05}
+				source: 'design/back_lang_0_on.png'
+				on_release: root.load_language(0)
+
+			LabelSecondFont:
+				id: lbl_lang_0
+				size_hint: (0.3333, 0.1)
+				pos_hint: {'x':0, 'y':0.05}
+				font_size: 24
+				color: [1, 1, 1, 1]
+
+			ImageButton:
+				id: btn_lang_1
+				size_hint: (0.3333, 0.1)
+				pos_hint: {'x':0.3333, 'y':0.05}
+				source: 'design/back_lang_1_off.png'
+				on_release: root.load_language(1)
+
+			LabelSecondFont:
+				id: lbl_lang_1
+				size_hint: (0.3333, 0.1)
+				pos_hint: {'x':0.3333, 'y':0.05}
+				font_size: 24
+				color: [1, 1, 1, 1]
+
+			ImageButton:
+				id: btn_lang_2
+				size_hint: (0.3333, 0.1)
+				pos_hint: {'x':0.6666, 'y':0.05}
+				source: 'design/back_lang_2_off.png'
+				on_release: root.load_language(2)
+
+			LabelSecondFont:
+				id: lbl_lang_2
+				size_hint: (0.3333, 0.1)
+				pos_hint: {'x':0.6666, 'y':0.05}
+				font_size: 24
+				color: [1, 1, 1, 1]
+				
+		FloatLayout:
+			id: lyt_center
+			size_hint: (0.49, 0.59)
+			pos_hint: {'x':0.255, 'y':0.205}
+
+			Image:
+				id: img_center
+				size_hint: (1, 1)
+				pos_hint: {'x':0, 'y':0}
+				
+			LabelMainFont:
+				id: lbl_title
+				size_hint: (1, None)
+				pos_hint: {'x':0, 'y':0}
+				font_size: '36sp'
+				background_color: [0, 0, 0, 0.5]
+				color: [1, 1, 1, 1]
+
+			Image:
+				id: img_info
+				size_hint: (0.15, 0.15)
+				pos_hint: {'x':0.85, 'y':0.85}
+				source: 'design/info.png'
+
+			Bubble:
+				id: bbl_more_info
+				size_hint: (0.6, 0.1)
+				pos_hint: {'x':0.75, 'y':0.7}
+				background_color: [0, 0, 0, 0.8]
+				arrow_pos: 'right_mid'
+				opacity: 0
+
+				BubbleButton:
+					id: bblbtn_more_info
+					text: 'More info'
+					font_size: 24
+					color: [1, 1, 1, 1]
+
+			Button:
+				size_hint: (1, 1)
+				pos_hint: {'x':0, 'y':0}
+				background_color: [1, 1, 1, 0]
+				on_release: root.on_click_lito_info()	
+
+<LitoScreen>:
+	name: 'lito'
+
+	btn_lito: btn_lito
+	btn_layout: btn_layout
+	img_background: img_background
+
+	lbl_info_1: lbl_info_1
+	lbl_info_2: lbl_info_2
+	lbl_info_3: lbl_info_3
+	lbl_info_4: lbl_info_4
+	lbl_info_5: lbl_info_5
+
+	btn_home: btn_home
+	btn_artist: btn_artist
+	btn_buy: btn_buy
+	img_full: img_full
+
+	scr_info: scr_info
+
+	background_color: [1, 1, 1, 1]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
+
+	FloatLayout:
+
+		ImageButton:
+			id: btn_lito
+			size_hint: (0.4, 1)
+			pos_hint: {'x':0.6, 'y':0}
+			on_release: root.on_click_lito_full()
+
+		Button:
+			id: btn_layout
+			size_hint: (0.6, 1)
+			pos_hint: {'x':0, 'y':0}
+			background_normal: ''
+			background_down: ''
+			background_color: [1, 1, 1, 1]
+
+
+
+		Image:
+			id: img_background
+			size_hint: (1, 2)
+			pos_hint: {'x':-0.4, 'y':-0.9}
+			allow_stretch: True
+			source: 'design/background.png'
+			opacity: 0.4
+
+
+
+
+
+		
+		LabelMainFont:	#Lineal vertical izquierda
+			size_hint: (0.01, 1)
+			pos_hint: {'x':0.02, 'y':0}
+			background_color: [0.7215, 0.5255, 0.0431, 1] #DarkGoldenrod
+
+
+		LabelMainFont:	#Lineal horizontal superior
+			size_hint: (0.6, 0.02)
+			pos_hint: {'x':0, 'y':0.95}
+			#background_color: [0.7215, 0.5255, 0.0431, 1] #DarkGoldenrod
+
+		LabelMainFont:	#Lineal vertical derecha
+			size_hint: (0.01, 1)
+			pos_hint: {'x':0.57, 'y':0}
+			#background_color: [0.7215, 0.5255, 0.0431, 1] #DarkGoldenrod
+
+
+
+
+		ScrollView:
+			id: scr_info
+			size_hint: (0.5, 0.65)
+			pos_hint: {'x':0.05, 'y':0.3}
+			effect_cls: ScrollEffect
+			do_scroll_x: False
+			do_scroll_y: True
+			bar_width: 10
+			bar_color: [0.7215, 0.5255, 0.0431, 1] #DarkGoldenrod
+			bar_inactive_color: [0.5, 0.5, 0.5, 1]
+			bar_margin: -20
+
+
+			GridLayout:
+				cols: 1
+				size_hint_y: None
+				height: self.minimum_height
+
+				spacing: [0, 10]
+				background_color: [1, 1, 1, 0]
+				canvas.before:
+					Color:
+						rgba: self.background_color
+					Rectangle:
+						size: self.size
+						pos: self.pos
+
+
+
+
+				LabelMainFont:	#Lineal horizontal titulo
+					text: ' '
+					size_hint_y: None
+					height: self.texture_size[1]
+					font_size: '6sp'
+					#background_color: [0.5, 0.5, 0.5, 1]
+					background_color: [0.7215, 0.5255, 0.0431, 1] #DarkGoldenrod
+
+				LabelMainFont:
+					id: lbl_info_1
+					#size_hint: (0.5, 0.15)
+					#pos_hint: {'x':0.05, 'y':0.8}
+					size_hint_y: None
+					height: self.texture_size[1]
+					font_size: '44sp'
+					#color: [0.7215, 0.5255, 0.0431, 1] #DarkGoldenrod
+					color: [0, 0, 0, 1]
+					bold: True
+					italic: True
+					
+					#background_color: [1, 0, 0, 1]
+			
+				LabelMainFont:
+					id: lbl_info_2
+					#size_hint: (0.5, 0.1)
+					#pos_hint: {'x':0.05, 'y':0.7}
+					size_hint_y: None
+					height: self.texture_size[1]
+					font_size: '36sp'			
+					#color: [0.7215, 0.5255, 0.0431, 1] #DarkGoldenrod
+					color: [0, 0, 0, 1]
+					bold: True
+					
+					#background_color: [0, 1, 0, 1]
+
+				LabelMainFont:	#Lineal horizontal titulo
+					text: ' '
+					size_hint_y: None
+					height: self.texture_size[1]
+					font_size: '6sp'
+					#background_color: [0.5, 0.5, 0.5, 1]
+					background_color: [0.7215, 0.5255, 0.0431, 1] #DarkGoldenrod
+
+				LabelMainFont:
+					id: lbl_info_3
+					#size_hint: (0.5, 0.08)
+					#pos_hint: {'x':0.05, 'y':0.6}
+					size_hint_y: None
+					height: self.texture_size[1]
+					font_size: '36sp'			
+					color: [0.2, 0.2, 0.2, 1]
+					#background_color: [0, 0, 1, 1]
+			
+				LabelMainFont:
+					id: lbl_info_4
+					size_hint_y: None
+					height: self.texture_size[1]
+					color: [0.2, 0.2, 0.2, 1]
+					font_size: '36sp'
+					halign: 'justify'
+					#background_color: [1, 0, 1, 1]
+
+		LabelMainFont:
+			id: lbl_info_5
+			size_hint: (0.5, 0.1)
+			pos_hint: {'x':0.05, 'y':0.18}
+			
+			color: [0.2, 0.2, 0.2, 1]
+			font_size: '40sp'
+			bold: True
+			#background_color: [1, 1, 0, 1]
+
+		ImageButton:
+			id: btn_home
+			size_hint: (0.1, 0.12)
+			pos_hint: {'x':0.1, 'y':0.05}
+			source: 'design/home.png'
+			on_release: app.root.current = 'main'
+
+		ImageButton:
+			id: btn_artist
+			size_hint: (0.1, 0.12)
+			pos_hint: {'x':0.25, 'y':0.05}
+			source: 'design/artist.png'
+			on_release: root.on_click_info_artist()
+
+		ImageButton:
+			id: btn_buy
+			size_hint: (0.1, 0.12)
+			pos_hint: {'x':0.4, 'y':0.05}
+			source: 'design/buy.png'
+			on_release: root.on_click_buy(root.selection)
+
+		Image:
+			id: img_full
+			size_hint: (0.1, 0.12)
+			pos_hint: {'x':0.9, 'y':0.85}
+			source: 'design/full.png'
+
+<FullScreen>:
+	name: 'full'
+
+	img_lito: img_lito
+	img_close: img_close
+	scatter: scatter
+	lbl_zoom: lbl_zoom
+	sld_zoom: sld_zoom
+	img_move: img_move
+
+	background_color: [1, 1, 1, 1]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
+	FloatLayout:
+
+		Scatter:
+			id: scatter
+			auto_bring_to_front: False
+			do_rotation: False
+			do_escale: True
+			scale_min: 1
+			scale_max: 3
+			on_transform_with_touch: root.on_change()
+			
+			Image:
+				id: img_lito				
+				width: scatter.width
+				height: scatter.height
+				allow_stretch: True
+				keep_ratio: True
+
+		ImageButton:
+			id: img_close
+			size_hint: (0.1, 0.12)
+			pos_hint: {'x':0.9, 'y':0.85}
+			source: 'design/cancel.png'
+			on_release: app.root.current = 'lito'
+
+		Image:
+			size_hint: (0.1, 0.08)
+			pos_hint: {'x':0.9, 'y':0.65}
+			source: 'design/zoom.png'
+
+		LabelThirdFont:
+			id: lbl_zoom
+			size_hint: (0.1, 0.1)
+			pos_hint: {'x':0.9, 'y':0.55}
+			font_size: '32sp'
+			color: [1, 1, 1, 1]
+			halign: 'center'
+			valign: 'middle'
+
+		Slider:
+			id: sld_zoom
+			size_hint: (0.1, 0.5)
+			pos_hint: {'x':0.9, 'y':0.05}
+			orientation: 'vertical'
+			min: 1
+			max: 3
+
+		Image:
+			id: img_move
+			size_hint: (0.15, 0.15)
+			pos_hint: {'x':0.8, 'y':0.05}
+			source: 'design/move.png'
+			opacity: 0.4
+
+<BuyScreen>:
+	name: 'buy'
+	
+	layout_buy: layout_buy
+	img_buy: img_buy
+	lbl_details_1: lbl_details_1
+	lbl_details_2: lbl_details_2
+	lbl_details_3: lbl_details_3
+	lbl_details_4: lbl_details_4
+	btn_buy: btn_buy
+	lbl_message_buy: lbl_message_buy
+	pgr_progress: pgr_progress
+	img_back: img_back
+	img_hint: img_hint
+	btn_cancel: btn_cancel
+	layout_info: layout_info
+	lbl_step: lbl_step
+	layout_buttons: layout_buttons
+	lbl_hint: lbl_hint
+
+	background_color: [0, 0, 0, 1]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
+
+	FloatLayout:
+		size_hint: (1, 1)
+		pos_hint: {'x':0, 'y':0}
+
+		Image:
+			id: img_back
+			size_hint: (1, 3)
+			pos_hint: {'x':0, 'y':-1}
+			keep_ratio: True
+			allow_stretch: True
+			opacity: 0.3
+
+		Image:
+			id: img_buy
+			size_hint: (0.4, 0.7)
+			pos_hint: {'x':0.05, 'y':0.15}
+			keep_ratio: True
+			allow_stretch: True
+
+		BoxLayout:
+			id: layout_buy
+			size_hint: (0.45, 0.5)
+			pos_hint: {'x':0.5, 'y':0.4}
+			orientation: 'vertical'
+	
+			LabelMainFont:
+				id: lbl_details_1
+				text: 'Confirmar compra'
+				color: [1, 1, 1, 1]
+				halign: 'center'
+				size_hint: (1, None)
+				font_size: '44sp'
+				padding_y: 20
+
+			LabelMainFont:
+				id: lbl_details_2
+				text: 'Autor y artista'
+				color: [1, 1, 1, 1]
+				halign: 'center'
+				size_hint: (1, None)
+				font_size: '42sp'
+
+			LabelMainFont:
+				id: lbl_details_3
+				text: 'Dimensiones'
+				color: [1, 1, 1, 1]
+				halign: 'center'
+				size_hint: (1, None)
+				font_size: '40sp'
+
+			LabelMainFont:
+				id: lbl_details_4
+				text: 'Precio'
+				color: [1, 1, 1, 1]
+				halign: 'center'
+				size_hint: (1, None)
+				font_size: '40sp'
+
+		FloatLayout:
+			id: layout_buttons
+			size_hint: (0.45, 0.1)
+			pos_hint: {'x':0.5, 'y':0.25}
+		
+			ImageButton:
+				id: btn_buy
+				size_hint: (0.8, 1)
+				pos_hint: {'x':0, 'y':0}
+				source: 'design/start_buy.png'
+				on_release: root.start_transaction()
+
+			LabelThirdFont:
+				id: lbl_message_buy
+				color: [0.2, 0.2, 0.2, 1]
+				halign: 'center'	
+				size_hint: (0.6, 1)
+				pos_hint: {'x':0, 'y':0}
+				font_size: '32sp'
+				bold: True
+			
+			ImageButton:
+				id: btn_cancel
+				size_hint: (0.2, 1.2)
+				pos_hint: {'x':0.8, 'y':-0.1}
+				source: 'design/cancel.png'
+				on_release: root.on_click_cancel()
+
+		FloatLayout:
+			id: layout_info
+			size_hint: (0.45, 0.4)
+			pos_hint: {'x':0.5, 'y':0.05}
+
+			LabelMainFont:
+				id: lbl_step
+				text: 'Paso 1/3'
+				color: [1, 1, 1, 1]
+				halign: 'center'
+				size_hint: (0.3, 0.1)
+				pos_hint: {'x':0, 'y':0.9}
+				font_size: '32sp'
+
+			LabelMainFont:
+				id: lbl_hint
+				text: 'Instrucciones'
+				color: [1, 1, 1, 1]
+				halign: 'center'
+				size_hint: (1, 0.15)
+				pos_hint: {'x':0, 'y':0.75}
+				font_size: '40sp'
+
+			ProgressBar:
+				id: pgr_progress
+				size_hint: (0.7, 0.1)
+				pos_hint: {'x':0.3, 'y':0.9}
+				max: 100
+				value: 0
+
+
+			ImageButton:
+				id: img_hint
+				size_hint: (1, 0.75)
+				pos_hint: {'x':0, 'y':0}
+				on_release: root.change()
+
+<ImageButton@ButtonBehavior+Image>:
+	keep_ratio: True
+	allow_stretch: True
+
+<LabelStart@Label>:
+	font_family: 'Geomanist'
+	text_size: self.size
+	size: self.texture_size
+	font_size: '36sp'
+	padding: (10, 10)
+	halign: 'center'
+	valign: 'center'
+	bold: True
+	color: [1, 1, 1, 1]
+
+	background_color: [1, 1, 1, 0]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
+
+<LabelMainFont@Label>:
+	font_name: 'BASKVILL'
+	text_size: (self.width, None)
+	size: self.texture_size
+	halign: 'center'
+	valign: 'center'
+	color: [1, 1, 1, 1]
+	
+	background_color: [1, 1, 1, 0]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
+
+<LabelSecondFont@Label>:
+	font_name: 'GOTHIC'
+	text_size: (self.width, None)
+	size: self.texture_size
+	halign: 'center'
+	valign: 'center'
+	color: [1, 1, 1, 1]
+	
+	background_color: [1, 1, 1, 0]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
+
+<LabelThirdFont@Label>:
+	#font_name: 'GOTHIC'
+	text_size: (self.width, None)
+	size: self.texture_size
+	halign: 'center'
+	valign: 'center'
+	color: [1, 1, 1, 1]
+	
+	background_color: [1, 1, 1, 0]
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos

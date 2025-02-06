@@ -1,0 +1,4 @@
+Presente su tarjeta
+Present your card
+Présentez votre carte
+end

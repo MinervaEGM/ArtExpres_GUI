@@ -1,0 +1,4 @@
+Realizando transacción
+Making transaction
+Faire une transaction
+end

@@ -1,0 +1,4 @@
+Realizando compra
+Making purchase
+Faire un achat
+end

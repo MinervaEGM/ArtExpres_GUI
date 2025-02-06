@@ -1,0 +1,4 @@
+¡Compra exitosa!
+Successful purchase!
+¡Achat réussi!
+end
